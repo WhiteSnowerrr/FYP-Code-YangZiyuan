@@ -1,0 +1,10 @@
+"","pt","cs","rs"
+"Explanator 1 (age), mean when alt is chosen:",26.439,34.7083,38.1607
+"Explanator 1 (age), mean when alt is not chosen:",36.2188,29.4227,28.9619
+"Explanator 1 (age), t-test (mean if chosen - mean if not chosen)",-11.27,4.83,8.57
+"Explanator 2 (qoffice_3), mean when alt is chosen:",0.7348,0.5069,0.4821
+"Explanator 2 (qoffice_3), mean when alt is not chosen:",0.4961,0.6705,0.6653
+"Explanator 2 (qoffice_3), t-test (mean if chosen - mean if not chosen)",6.01,-3.45,-3.51
+"Explanator 3 (income_2), mean when alt is chosen:",11082.3171,11833.3333,12116.0714
+"Explanator 3 (income_2), mean when alt is not chosen:",11957.0312,11345.4545,11311.4407
+"Explanator 3 (income_2), t-test (mean if chosen - mean if not chosen)",-3.57,1.53,2.64

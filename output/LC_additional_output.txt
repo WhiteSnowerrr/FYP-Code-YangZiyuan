@@ -1,0 +1,158 @@
+Running predictions from model using parameter estimates...
+Running predictions across draws from the asymptotic distribution for
+  maximum likelihood estimates.
+Predicting for set of draws 1/30...
+Predicting for set of draws 2/30...
+Predicting for set of draws 3/30...
+Predicting for set of draws 4/30...
+Predicting for set of draws 5/30...
+Predicting for set of draws 6/30...
+Predicting for set of draws 7/30...
+Predicting for set of draws 8/30...
+Predicting for set of draws 9/30...
+Predicting for set of draws 10/30...
+Predicting for set of draws 11/30...
+Predicting for set of draws 12/30...
+Predicting for set of draws 13/30...
+Predicting for set of draws 14/30...
+Predicting for set of draws 15/30...
+Predicting for set of draws 16/30...
+Predicting for set of draws 17/30...
+Predicting for set of draws 18/30...
+Predicting for set of draws 19/30...
+Predicting for set of draws 20/30...
+Predicting for set of draws 21/30...
+Predicting for set of draws 22/30...
+Predicting for set of draws 23/30...
+Predicting for set of draws 24/30...
+Predicting for set of draws 25/30...
+Predicting for set of draws 26/30...
+Predicting for set of draws 27/30...
+Predicting for set of draws 28/30...
+Predicting for set of draws 29/30...
+Predicting for set of draws 30/30...
+
+Aggregated prediction for model component: Class_1
+   at MLE Sampled mean Sampled std.dev. Quantile 0.025 Quantile 0.975
+pt 1340.0       1327.3            46.57         1231.8         1387.6
+cs  235.3        243.9            33.84          201.0          325.6
+rs  128.7        132.9            24.47           98.2          175.7
+
+Average prediction for model component: Class_1
+    at MLE Sampled mean Sampled std.dev. Quantile 0.025 Quantile 0.975
+pt 0.78637      0.77892          0.02733        0.72287         0.8143
+cs 0.13808      0.14312          0.01986        0.11795         0.1911
+rs 0.07555      0.07796          0.01436        0.05763         0.1031
+
+Aggregated prediction for model component: Class_2
+   at MLE Sampled mean Sampled std.dev. Quantile 0.025 Quantile 0.975
+pt  792.9        796.9            85.51          656.7          944.7
+cs  497.1        478.5            68.04          366.5          606.2
+rs  414.0        428.6            88.91          298.8          582.2
+
+Average prediction for model component: Class_2
+   at MLE Sampled mean Sampled std.dev. Quantile 0.025 Quantile 0.975
+pt 0.4653       0.4677          0.05018         0.3854         0.5544
+cs 0.2918       0.2808          0.03993         0.2151         0.3558
+rs 0.2430       0.2515          0.05217         0.1754         0.3417
+
+Aggregated prediction for model component: model
+   at MLE Sampled mean Sampled std.dev. Quantile 0.025 Quantile 0.975
+pt   1194       1185.6            34.56         1130.7         1251.3
+cs    307        309.1            25.65          257.9          359.7
+rs    203        209.3            25.83          167.2          263.2
+
+Average prediction for model component: model
+   at MLE Sampled mean Sampled std.dev. Quantile 0.025 Quantile 0.975
+pt 0.7007       0.6958          0.02028         0.6636         0.7343
+cs 0.1802       0.1814          0.01505         0.1513         0.2111
+rs 0.1191       0.1228          0.01516         0.0981         0.1545
+
+The output from apollo_prediction is a list, with one element per
+  model component. If the user asks for confidence intervals, then,
+  for each model component, a list with two elements is returned: a
+  data.frame containing the predictions at the estimated values, and
+  an array with predictions for different values of the parameters
+  drawn from their asymptotic distribution.
+[1] 0.7265258
+Model run by yangziyuan using Apollo 0.3.1 on R 4.3.2 for Darwin.
+Please acknowledge the use of Apollo by citing Hess & Palma (2019)
+  DOI 10.1016/j.jocm.2019.100170
+  www.ApolloChoiceModelling.com
+
+Model name                                  : LC
+Model description                           : LC model
+Model run at                                : 2023-12-20 21:31:53.043218
+Estimation method                           : bgw
+Model diagnosis                             : Relative function convergence
+Optimisation diagnosis                      : Maximum found
+     hessian properties                     : Negative definite
+     maximum eigenvalue                     : -0.098011
+     reciprocal of condition number         : 1.20909e-05
+Number of individuals                       : 213
+Number of rows in database                  : 1704
+Number of modelled outcomes                 : 1704
+
+Number of cores used                        :  7 
+Model without mixing
+
+LL(start)                                   : -1872.04
+LL (whole model) at equal shares, LL(0)     : -1872.04
+LL (whole model) at observed shares, LL(C)  : -1382.72
+LL(final, whole model)                      : -1214.82
+Rho-squared vs equal shares                  :  0.3511 
+Adj.Rho-squared vs equal shares              :  0.3409 
+Rho-squared vs observed shares               :  0.1214 
+Adj.Rho-squared vs observed shares           :  0.1106 
+AIC                                         :  2467.64 
+BIC                                         :  2571.02 
+
+LL(0,Class_1)                    : -1872.04
+LL(final,Class_1)                : -1344.6
+LL(0,Class_2)                    : -1872.04
+LL(final,Class_2)                : -1630.08
+
+Estimated parameters                        : 19
+Time taken (hh:mm:ss)                       :  00:00:16.21 
+     pre-estimation                         :  00:00:9.83 
+     estimation                             :  00:00:1.77 
+          initial estimation                :  00:00:1.44 
+          estimation after rescaling        :  00:00:0.33 
+     post-estimation                        :  00:00:4.6 
+Iterations                                  :  29  
+     initial estimation                     :  28 
+     estimation after rescaling             :  1 
+
+Unconstrained optimisation.
+
+Estimates:
+                     Estimate    Rob.s.e. Rob.t.rat.(0)  p(1-sided)
+asc_pt                3.89951     0.58658        6.6479   1.487e-11
+asc_cs                1.10389     0.45410        2.4309    0.007530
+asc_rs                0.00000          NA            NA          NA
+b_tt                 -1.10337     0.69657       -1.5840    0.056596
+b_tt_shift           -1.29306     1.50153       -0.8612    0.194574
+b_cost               -5.00900     1.39358       -3.5943  1.6260e-04
+b_cost_shift          3.05139     2.34883        1.2991    0.096953
+b_trans              -0.47221     0.32255       -1.4640    0.071599
+b_trans_shift         0.37969     0.51761        0.7335    0.231614
+b_crowd              -2.34163     0.49044       -4.7746   9.004e-07
+b_crowd_shift        -1.21436     0.83480       -1.4547    0.072881
+b_disin               0.26597     0.18306        1.4529    0.073124
+b_disin_shift        -0.44157     0.25551       -1.7282    0.041978
+b_share              -1.79745     2.37414       -0.7571    0.224496
+b_share_shift         2.55483     2.54196        1.0051    0.157434
+b_pta                -0.27603     0.14110       -1.9563    0.025215
+b_pta_shift          -0.39897     0.15882       -2.5121    0.006000
+b_csa                -0.20366     0.10775       -1.8900    0.029376
+b_csa_shift          -0.07015     0.09770       -0.7180    0.236364
+b_rsa                 0.00000          NA            NA          NA
+b_rsa_shift           0.00000          NA            NA          NA
+cost_income_elast     0.19255     0.31236        0.6164    0.268805
+
+
+Summary of class allocation for model component :
+         Mean prob.
+Class_1      0.6573
+Class_2      0.3427
+

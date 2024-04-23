@@ -1,0 +1,146 @@
+Model run by yangziyuan using Apollo 0.3.1 on R 4.3.2 for Darwin.
+Please acknowledge the use of Apollo by citing Hess & Palma (2019)
+  DOI 10.1016/j.jocm.2019.100170
+  www.ApolloChoiceModelling.com
+
+Model name                                  : LC_with_covariates
+Model description                           : LC model with covariates in class allocation model on Swiss route choice data
+Model run at                                : 2023-12-17 00:02:13.51002
+Estimation method                           : bgw
+Model diagnosis                             : Relative function convergence
+Optimisation diagnosis                      : Maximum found
+     hessian properties                     : Negative definite
+     maximum eigenvalue                     : -8.872066
+     reciprocal of condition number         : 5.37478e-05
+Number of individuals                       : 388
+Number of rows in database                  : 3492
+Number of modelled outcomes                 : 3492
+
+Number of cores used                        :  3 
+Model without mixing
+
+LL(start)                                   : -1755.5
+LL (whole model) at equal shares, LL(0)     : -2420.47
+LL (whole model) at observed shares, LL(C)  : -2420.39
+LL(final, whole model)                      : -1559.01
+Rho-squared vs equal shares                  :  0.3559 
+Adj.Rho-squared vs equal shares              :  0.3509 
+Rho-squared vs observed shares               :  0.3559 
+Adj.Rho-squared vs observed shares           :  0.3518 
+AIC                                         :  3142.03 
+BIC                                         :  3215.93 
+
+LL(0,Class_1)                    : -2420.47
+LL(final,Class_1)                : -1776.33
+LL(0,Class_2)                    : -2420.47
+LL(final,Class_2)                : -2467.09
+
+Estimated parameters                        : 12
+Time taken (hh:mm:ss)                       :  00:00:5.97 
+     pre-estimation                         :  00:00:4.57 
+     estimation                             :  00:00:0.74 
+          initial estimation                :  00:00:0.7 
+          estimation after rescaling        :  00:00:0.04 
+     post-estimation                        :  00:00:0.66 
+Iterations                                  :  24  
+     initial estimation                     :  23 
+     estimation after rescaling             :  1 
+
+Unconstrained optimisation.
+
+Estimates:
+                   Estimate    Rob.s.e. Rob.t.rat.(0)  p(1-sided)
+asc_1              -0.03463    0.052870       -0.6549     0.25626
+asc_2               0.00000          NA            NA          NA
+beta_tt_a          -0.03724    0.009965       -3.7374   9.298e-05
+beta_tt_b          -0.20953    0.048083       -4.3577   6.573e-06
+beta_tc_a          -0.04989    0.013435       -3.7138  1.0207e-04
+beta_tc_b          -0.77576    0.116704       -6.6473   1.493e-11
+beta_hw_a          -0.03426    0.005004       -6.8466   3.782e-12
+beta_hw_b          -0.05467    0.008683       -6.2957   1.530e-10
+beta_ch_a          -0.60949    0.104852       -5.8129   3.070e-09
+beta_ch_b          -2.67044    0.300606       -8.8835     0.00000
+delta_a            -0.20946    0.253055       -0.8277     0.20392
+gamma_commute_a    -0.43371    0.364454       -1.1900     0.11702
+gamma_car_av_a      0.58815    0.303950        1.9350     0.02649
+delta_b             0.00000          NA            NA          NA
+gamma_commute_b     0.00000          NA            NA          NA
+gamma_car_av_b      0.00000          NA            NA          NA
+
+
+Summary of class allocation for model component :
+         Mean prob.
+Class_1      0.4731
+Class_2      0.5269
+
+Unconditional distributions computed
+Running predictions from model using parameter estimates...
+Running predictions across draws from the asymptotic distribution for
+  maximum likelihood estimates.
+Predicting for set of draws 1/30...
+Predicting for set of draws 2/30...
+Predicting for set of draws 3/30...
+Predicting for set of draws 4/30...
+Predicting for set of draws 5/30...
+Predicting for set of draws 6/30...
+Predicting for set of draws 7/30...
+Predicting for set of draws 8/30...
+Predicting for set of draws 9/30...
+Predicting for set of draws 10/30...
+Predicting for set of draws 11/30...
+Predicting for set of draws 12/30...
+Predicting for set of draws 13/30...
+Predicting for set of draws 14/30...
+Predicting for set of draws 15/30...
+Predicting for set of draws 16/30...
+Predicting for set of draws 17/30...
+Predicting for set of draws 18/30...
+Predicting for set of draws 19/30...
+Predicting for set of draws 20/30...
+Predicting for set of draws 21/30...
+Predicting for set of draws 22/30...
+Predicting for set of draws 23/30...
+Predicting for set of draws 24/30...
+Predicting for set of draws 25/30...
+Predicting for set of draws 26/30...
+Predicting for set of draws 27/30...
+Predicting for set of draws 28/30...
+Predicting for set of draws 29/30...
+Predicting for set of draws 30/30...
+
+Aggregated prediction for model component: Class_1
+     at MLE Sampled mean Sampled std.dev. Quantile 0.025 Quantile 0.975
+alt1   1720         1728            27.07           1691           1783
+alt2   1772         1764            27.07           1709           1801
+
+Average prediction for model component: Class_1
+     at MLE Sampled mean Sampled std.dev. Quantile 0.025 Quantile 0.975
+alt1 0.4926       0.4947         0.007751         0.4841         0.5105
+alt2 0.5074       0.5053         0.007751         0.4895         0.5159
+
+Aggregated prediction for model component: Class_2
+     at MLE Sampled mean Sampled std.dev. Quantile 0.025 Quantile 0.975
+alt1   1733         1736            10.54           1721           1754
+alt2   1759         1756            10.54           1738           1771
+
+Average prediction for model component: Class_2
+     at MLE Sampled mean Sampled std.dev. Quantile 0.025 Quantile 0.975
+alt1 0.4962       0.4971         0.003019         0.4928         0.5024
+alt2 0.5038       0.5029         0.003019         0.4976         0.5072
+
+Aggregated prediction for model component: model
+     at MLE Sampled mean Sampled std.dev. Quantile 0.025 Quantile 0.975
+alt1   1728         1733            18.12           1708           1769
+alt2   1764         1759            18.12           1723           1784
+
+Average prediction for model component: model
+     at MLE Sampled mean Sampled std.dev. Quantile 0.025 Quantile 0.975
+alt1 0.4949       0.4962         0.005189         0.4891         0.5067
+alt2 0.5051       0.5038         0.005189         0.4933         0.5109
+
+The output from apollo_prediction is a list, with one element per
+  model component. If the user asks for confidence intervals, then,
+  for each model component, a list with two elements is returned: a
+  data.frame containing the predictions at the estimated values, and
+  an array with predictions for different values of the parameters
+  drawn from their asymptotic distribution.

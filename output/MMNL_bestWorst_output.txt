@@ -1,0 +1,1166 @@
+Model run by uuu360 using Apollo 0.3.1 on R 4.3.2 for Windows.
+Please acknowledge the use of Apollo by citing Hess & Palma (2019)
+  DOI 10.1016/j.jocm.2019.100170
+  www.ApolloChoiceModelling.com
+
+Model name                                  : MMNL_bestWorst
+Model description                           : MMNL Best Worst model
+Model run at                                : 2023-11-08 14:38:20.79429
+Estimation method                           : bgw
+Model diagnosis                             : Relative function convergence
+Optimisation diagnosis                      : Maximum found
+     hessian properties                     : Negative definite
+     maximum eigenvalue                     : -0.091783
+     reciprocal of condition number         : 2.15691e-05
+Number of individuals                       : 213
+Number of rows in database                  : 1704
+Number of modelled outcomes                 : 3408
+                            best : 1704
+                           worst : 1704
+
+Number of cores used                        :  4 
+Number of inter-individual draws            : 100 (halton)
+Number of intra-individual draws                : 100 (mlhs)
+
+LL(start)                                   : -2205.96
+LL (whole model) at equal shares, LL(0)     : -3053.16
+LL (whole model) at observed shares, LL(C)  : -3107.71
+LL(final, whole model)                      : -2205.92
+Rho-squared vs equal shares                  :  0.2775 
+Adj.Rho-squared vs equal shares              :  0.2709 
+Rho-squared vs observed shares               :  0.2902 
+Adj.Rho-squared vs observed shares           :  0.285 
+AIC                                         :  4451.83 
+BIC                                         :  4560.65 
+
+LL(0,choice_best)                : -1872.04
+LL(final,choice_best)            : -1100.59
+LL(0,choice_worst)               : -1181.12
+LL(final,choice_worst)           : -1105.93
+
+Estimated parameters                        : 20
+Time taken (hh:mm:ss)                       :  01:45:46.54 
+     pre-estimation                         :  00:16:57.38 
+     estimation                             :  00:12:54.49 
+          initial estimation                :  00:10:47.82 
+          estimation after rescaling        :  00:02:6.66 
+     post-estimation                        :  01:15:54.67 
+Iterations                                  :  16  
+     initial estimation                     :  15 
+     estimation after rescaling             :  1 
+
+Unconstrained optimisation.
+
+Estimates:
+                        Estimate        s.e.   t.rat.(0)    Rob.s.e.
+asc_pt                   5.94803     0.49809     11.9416     1.18265
+asc_cs                   1.35794     0.26457      5.1326     0.36419
+asc_rs                   0.00000          NA          NA          NA
+mu_log_b_tt              3.15508     0.34603      9.1179     0.31796
+sigma_log_b_tt_inter    -2.13515     0.25196     -8.4742     0.20329
+sigma_log_b_tt_intra     0.84696     0.11076      7.6469     0.12788
+gamma_btt_shift          0.89503     0.41858      2.1382     0.40031
+b_cost                  -6.69747     1.17474     -5.7013     1.80627
+b_cost_shift             4.24515     1.84043      2.3066     3.42258
+b_trans                 -0.46733     0.31114     -1.5020     0.39899
+b_trans_shift            0.38120     0.43408      0.8782     0.85322
+b_crowd                 -3.28468     0.63807     -5.1479     0.86102
+b_crowd_shift           -2.62532     0.83885     -3.1297     1.26864
+b_share                  5.09751     2.10122      2.4260     2.47924
+b_share_shift           -4.50630     2.84927     -1.5816     3.17881
+b_pta                   -0.41646     0.11966     -3.4803     0.26138
+b_pta_shift             -0.65321     0.12316     -5.3038     0.23303
+b_csa                   -0.21937     0.06428     -3.4127     0.09032
+b_csa_shift             -0.08467     0.05712     -1.4824     0.07427
+b_rsa                    0.00000          NA          NA          NA
+b_rsa_shift              0.00000          NA          NA          NA
+cost_income_elast        0.33574     0.23490      1.4293     0.47031
+scale_best               1.00000          NA          NA          NA
+scale_worst              0.50657     0.06683      7.5798     0.11607
+                     Rob.t.rat.(0)
+asc_pt                      5.0294
+asc_cs                      3.7286
+asc_rs                          NA
+mu_log_b_tt                 9.9230
+sigma_log_b_tt_inter      -10.5030
+sigma_log_b_tt_intra        6.6229
+gamma_btt_shift             2.2358
+b_cost                     -3.7079
+b_cost_shift                1.2403
+b_trans                    -1.1713
+b_trans_shift               0.4468
+b_crowd                    -3.8149
+b_crowd_shift              -2.0694
+b_share                     2.0561
+b_share_shift              -1.4176
+b_pta                      -1.5933
+b_pta_shift                -2.8031
+b_csa                      -2.4287
+b_csa_shift                -1.1401
+b_rsa                           NA
+b_rsa_shift                     NA
+cost_income_elast           0.7139
+scale_best                      NA
+scale_worst                 4.3643
+
+
+Overview of choices for MNL model component best:
+                                      pt      cs      rs
+Times available                  1704.00 1704.00 1704.00
+Times chosen                     1194.00  307.00  203.00
+Percentage chosen overall          70.07   18.02   11.91
+Percentage chosen when available   70.07   18.02   11.91
+
+
+
+Overview of choices for MNL model component worst:
+                                     pt      cs      rs
+Times available                  510.00 1397.00 1501.00
+Times chosen                     348.00  451.00  905.00
+Percentage chosen overall         20.42   26.47   53.11
+Percentage chosen when available  68.24   32.28   60.29
+
+
+
+Classical covariance matrix:
+                                   asc_pt               asc_cs
+asc_pt                           0.248095             0.045851
+asc_cs                           0.045851             0.069999
+mu_log_b_tt                      0.014278            4.778e-05
+sigma_log_b_tt_inter            -0.003624          -5.2346e-04
+sigma_log_b_tt_intra          -1.8190e-04           1.0792e-04
+gamma_btt_shift                  0.008504             0.001382
+b_cost                          -0.007710             0.003380
+b_cost_shift                    -0.004556             0.022234
+b_trans                         -0.036696          -2.3457e-04
+b_trans_shift                   -0.022665             0.001845
+b_crowd                         -0.039531            -0.002651
+b_crowd_shift                   -0.086987             0.001190
+b_share                          0.200053             0.129020
+b_share_shift                   -0.046778             0.007472
+b_pta                           -0.037722            -0.007640
+b_pta_shift                     -0.006045            -0.001393
+b_csa                           -0.008083            -0.014114
+b_csa_shift                     -0.002099            -0.002924
+cost_income_elast                0.002479          -8.8930e-04
+scale_worst                     -0.006580            -0.003777
+                              mu_log_b_tt sigma_log_b_tt_inter
+asc_pt                           0.014278            -0.003624
+asc_cs                          4.778e-05          -5.2346e-04
+mu_log_b_tt                      0.119739             0.060894
+sigma_log_b_tt_inter             0.060894             0.063484
+sigma_log_b_tt_intra            -0.015185            -0.010031
+gamma_btt_shift                 -0.053674            -0.002797
+b_cost                          -0.031585            -0.005570
+b_cost_shift                     0.026006             0.003100
+b_trans                          0.011278             0.008726
+b_trans_shift                   -0.007327          -5.9973e-04
+b_crowd                         -0.005749             0.001817
+b_crowd_shift                   -0.006224            -0.002643
+b_share                          0.103629             0.040470
+b_share_shift                   -0.079811            -0.022596
+b_pta                          5.7781e-04             0.001160
+b_pta_shift                     -0.002962          -3.2649e-04
+b_csa                         -2.2512e-04            1.790e-05
+b_csa_shift                    1.2687e-04            5.346e-05
+cost_income_elast              1.2055e-04           -8.785e-05
+scale_worst                     -0.002046          -5.7399e-04
+                     sigma_log_b_tt_intra      gamma_btt_shift
+asc_pt                        -1.8190e-04             0.008504
+asc_cs                         1.0792e-04             0.001382
+mu_log_b_tt                     -0.015185            -0.053674
+sigma_log_b_tt_inter            -0.010031            -0.002797
+sigma_log_b_tt_intra             0.012268             0.001896
+gamma_btt_shift                  0.001896             0.175212
+b_cost                          -0.014388             0.022452
+b_cost_shift                     0.011294            -0.043058
+b_trans                         -0.002116            -0.006678
+b_trans_shift                 -7.1188e-04             0.029577
+b_crowd                         -0.003312             0.003393
+b_crowd_shift                    0.005897            -0.017282
+b_share                         -0.018516            -0.029995
+b_share_shift                    0.013986             0.119350
+b_pta                         -4.2764e-04            -0.003019
+b_pta_shift                    6.5122e-04             0.002459
+b_csa                         -2.4652e-04           1.2214e-04
+b_csa_shift                    2.5614e-04          -6.9021e-04
+cost_income_elast              7.8924e-04             0.001417
+scale_worst                    4.3637e-04          -4.1253e-04
+                                   b_cost         b_cost_shift
+asc_pt                          -0.007710            -0.004556
+asc_cs                           0.003380             0.022234
+mu_log_b_tt                     -0.031585             0.026006
+sigma_log_b_tt_inter            -0.005570             0.003100
+sigma_log_b_tt_intra            -0.014388             0.011294
+gamma_btt_shift                  0.022452            -0.043058
+b_cost                           1.380003            -1.468088
+b_cost_shift                    -1.468088             3.387178
+b_trans                          0.073182            -0.070408
+b_trans_shift                   -0.081798             0.212116
+b_crowd                          0.087124            -0.089808
+b_crowd_shift                   -0.092830             0.215631
+b_share                          0.091822            -0.172741
+b_share_shift                   -0.126767             0.797873
+b_pta                            0.012496            -0.012533
+b_pta_shift                     -0.013238             0.034501
+b_csa                            0.014119            -0.020893
+b_csa_shift                     -0.014260             0.037625
+cost_income_elast                0.098730            -0.191753
+scale_worst                      0.029152            -0.019986
+                                  b_trans        b_trans_shift
+asc_pt                          -0.036696            -0.022665
+asc_cs                        -2.3457e-04             0.001845
+mu_log_b_tt                      0.011278            -0.007327
+sigma_log_b_tt_inter             0.008726          -5.9973e-04
+sigma_log_b_tt_intra            -0.002116          -7.1188e-04
+gamma_btt_shift                 -0.006678             0.029577
+b_cost                           0.073182            -0.081798
+b_cost_shift                    -0.070408             0.212116
+b_trans                          0.096808            -0.085931
+b_trans_shift                   -0.085931             0.188425
+b_crowd                         -0.005980             0.016201
+b_crowd_shift                    0.026319            -0.035484
+b_share                          0.035468            -0.057102
+b_share_shift                   -0.044825             0.172301
+b_pta                           -0.013205             0.022171
+b_pta_shift                      0.019543            -0.031822
+b_csa                            0.001211            -0.001874
+b_csa_shift                     -0.001298             0.003308
+cost_income_elast                0.001733            -0.008901
+scale_worst                      0.001385          -7.5599e-04
+                                  b_crowd        b_crowd_shift
+asc_pt                          -0.039531            -0.086987
+asc_cs                          -0.002651             0.001190
+mu_log_b_tt                     -0.005749            -0.006224
+sigma_log_b_tt_inter             0.001817            -0.002643
+sigma_log_b_tt_intra            -0.003312             0.005897
+gamma_btt_shift                  0.003393            -0.017282
+b_cost                           0.087124            -0.092830
+b_cost_shift                    -0.089808             0.215631
+b_trans                         -0.005980             0.026319
+b_trans_shift                    0.016201            -0.035484
+b_crowd                          0.407130            -0.386580
+b_crowd_shift                   -0.386580             0.703671
+b_share                         -0.014093            -0.063551
+b_share_shift                   -0.004032             0.075665
+b_pta                           -0.013397             0.032216
+b_pta_shift                      0.020138            -0.023354
+b_csa                            0.001711            -0.002205
+b_csa_shift                     -0.001245             0.003700
+cost_income_elast                0.005952            -0.013467
+scale_worst                      0.002158           6.6897e-04
+                                  b_share        b_share_shift
+asc_pt                            0.20005            -0.046778
+asc_cs                            0.12902             0.007472
+mu_log_b_tt                       0.10363            -0.079811
+sigma_log_b_tt_inter              0.04047            -0.022596
+sigma_log_b_tt_intra             -0.01852             0.013986
+gamma_btt_shift                  -0.03000             0.119350
+b_cost                            0.09182            -0.126767
+b_cost_shift                     -0.17274             0.797873
+b_trans                           0.03547            -0.044825
+b_trans_shift                    -0.05710             0.172301
+b_crowd                          -0.01409            -0.004032
+b_crowd_shift                    -0.06355             0.075665
+b_share                           4.41513            -4.129721
+b_share_shift                    -4.12972             8.118322
+b_pta                             0.02269            -0.047262
+b_pta_shift                      -0.05877             0.100507
+b_csa                             0.02158            -0.049059
+b_csa_shift                      -0.05611             0.102223
+cost_income_elast                 0.01676            -0.042530
+scale_worst                      -0.04554             0.037591
+                                    b_pta          b_pta_shift
+asc_pt                          -0.037722            -0.006045
+asc_cs                          -0.007640            -0.001393
+mu_log_b_tt                    5.7781e-04            -0.002962
+sigma_log_b_tt_inter             0.001160          -3.2649e-04
+sigma_log_b_tt_intra          -4.2764e-04           6.5122e-04
+gamma_btt_shift                 -0.003019             0.002459
+b_cost                           0.012496            -0.013238
+b_cost_shift                    -0.012533             0.034501
+b_trans                         -0.013205             0.019543
+b_trans_shift                    0.022171            -0.031822
+b_crowd                         -0.013397             0.020138
+b_crowd_shift                    0.032216            -0.023354
+b_share                          0.022688            -0.058766
+b_share_shift                   -0.047262             0.100507
+b_pta                            0.014319            -0.007658
+b_pta_shift                     -0.007658             0.015168
+b_csa                            0.002290          -6.7526e-04
+b_csa_shift                   -6.1596e-04             0.002187
+cost_income_elast              2.3470e-04            -0.001149
+scale_worst                    7.3884e-04           3.6067e-04
+                                    b_csa          b_csa_shift
+asc_pt                          -0.008083            -0.002099
+asc_cs                          -0.014114            -0.002924
+mu_log_b_tt                   -2.2512e-04           1.2687e-04
+sigma_log_b_tt_inter            1.790e-05            5.346e-05
+sigma_log_b_tt_intra          -2.4652e-04           2.5614e-04
+gamma_btt_shift                1.2214e-04          -6.9021e-04
+b_cost                           0.014119            -0.014260
+b_cost_shift                    -0.020893             0.037625
+b_trans                          0.001211            -0.001298
+b_trans_shift                   -0.001874             0.003308
+b_crowd                          0.001711            -0.001245
+b_crowd_shift                   -0.002205             0.003700
+b_share                          0.021583            -0.056110
+b_share_shift                   -0.049059             0.102223
+b_pta                            0.002290          -6.1596e-04
+b_pta_shift                   -6.7526e-04             0.002187
+b_csa                            0.004132          -7.2527e-04
+b_csa_shift                   -7.2527e-04             0.003262
+cost_income_elast              7.5310e-04            -0.001586
+scale_worst                    4.9188e-04           7.9099e-04
+                        cost_income_elast          scale_worst
+asc_pt                           0.002479            -0.006580
+asc_cs                        -8.8930e-04            -0.003777
+mu_log_b_tt                    1.2055e-04            -0.002046
+sigma_log_b_tt_inter           -8.785e-05          -5.7399e-04
+sigma_log_b_tt_intra           7.8924e-04           4.3637e-04
+gamma_btt_shift                  0.001417          -4.1253e-04
+b_cost                           0.098730             0.029152
+b_cost_shift                    -0.191753            -0.019986
+b_trans                          0.001733             0.001385
+b_trans_shift                   -0.008901          -7.5599e-04
+b_crowd                          0.005952             0.002158
+b_crowd_shift                   -0.013467           6.6897e-04
+b_share                          0.016755            -0.045542
+b_share_shift                   -0.042530             0.037591
+b_pta                          2.3470e-04           7.3884e-04
+b_pta_shift                     -0.001149           3.6067e-04
+b_csa                          7.5310e-04           4.9188e-04
+b_csa_shift                     -0.001586           7.9099e-04
+cost_income_elast                0.055178           -3.650e-05
+scale_worst                    -3.650e-05             0.004467
+
+Robust covariance matrix:
+                                   asc_pt               asc_cs
+asc_pt                           1.398665             0.170946
+asc_cs                           0.170946             0.132636
+mu_log_b_tt                      0.074018            -0.006717
+sigma_log_b_tt_inter            -0.014915            -0.006558
+sigma_log_b_tt_intra            -0.004655           7.9191e-04
+gamma_btt_shift                 -0.073438            -0.003034
+b_cost                           0.559378             0.082424
+b_cost_shift                    -0.831434             0.050161
+b_trans                         -0.026264             0.007530
+b_trans_shift                   -0.449503          -4.1037e-04
+b_crowd                         -0.171675             0.006242
+b_crowd_shift                   -0.273255             0.015019
+b_share                          0.102782             0.118875
+b_share_shift                   -0.125049             0.070089
+b_pta                           -0.258525            -0.038953
+b_pta_shift                     -0.025934            -0.005500
+b_csa                           -0.035437            -0.028710
+b_csa_shift                     -0.007226            -0.005789
+cost_income_elast                0.033270             0.004783
+scale_worst                      0.035143            -0.002604
+                              mu_log_b_tt sigma_log_b_tt_inter
+asc_pt                           0.074018            -0.014915
+asc_cs                          -0.006717            -0.006558
+mu_log_b_tt                      0.101096             0.051602
+sigma_log_b_tt_inter             0.051602             0.041326
+sigma_log_b_tt_intra            -0.017077            -0.014187
+gamma_btt_shift                 -0.039633            -0.004554
+b_cost                           0.051934             0.023912
+b_cost_shift                    -0.108764            -0.053225
+b_trans                          0.013092             0.010608
+b_trans_shift                   -0.041620            -0.006355
+b_crowd                         -0.058176            -0.023859
+b_crowd_shift                    0.003213          -8.1922e-04
+b_share                          0.075073             0.005559
+b_share_shift                   -0.031559             0.049841
+b_pta                           -0.011682             0.003098
+b_pta_shift                     -0.001171             0.002578
+b_csa                          2.6469e-04           7.6440e-04
+b_csa_shift                    3.8719e-04           2.4186e-04
+cost_income_elast               -0.010792            -0.013001
+scale_worst                      0.005866             0.002427
+                     sigma_log_b_tt_intra      gamma_btt_shift
+asc_pt                          -0.004655            -0.073438
+asc_cs                         7.9191e-04            -0.003034
+mu_log_b_tt                     -0.017077            -0.039633
+sigma_log_b_tt_inter            -0.014187            -0.004554
+sigma_log_b_tt_intra             0.016354            -0.002636
+gamma_btt_shift                 -0.002636             0.160251
+b_cost                          -0.045903             0.006596
+b_cost_shift                     0.049670            -0.377415
+b_trans                         -0.006253             0.013679
+b_trans_shift                    0.002675             0.042768
+b_crowd                         -0.006721             0.041869
+b_crowd_shift                    0.016877            -0.050704
+b_share                         -0.015783            -0.055254
+b_share_shift                   -0.003291             0.240290
+b_pta                            0.001269             0.008206
+b_pta_shift                    9.2499e-04             0.008733
+b_csa                         -4.0166e-04           9.3575e-04
+b_csa_shift                      0.001219            -0.001946
+cost_income_elast                0.006623             0.013308
+scale_worst                   -4.0807e-04            -0.005046
+                                   b_cost         b_cost_shift
+asc_pt                           0.559378             -0.83143
+asc_cs                           0.082424              0.05016
+mu_log_b_tt                      0.051934             -0.10876
+sigma_log_b_tt_inter             0.023912             -0.05322
+sigma_log_b_tt_intra            -0.045903              0.04967
+gamma_btt_shift                  0.006596             -0.37741
+b_cost                           3.262627             -3.84340
+b_cost_shift                    -3.843405             11.71405
+b_trans                          0.186535             -0.17269
+b_trans_shift                   -0.395998              0.90889
+b_crowd                          0.058308             -0.15501
+b_crowd_shift                   -0.380569              1.32312
+b_share                         -0.432397              0.21455
+b_share_shift                    0.284473              1.33599
+b_pta                           -0.089236              0.14808
+b_pta_shift                     -0.020335             -0.01791
+b_csa                          8.7785e-04             -0.02745
+b_csa_shift                     -0.021446              0.08872
+cost_income_elast                0.238339             -0.76458
+scale_worst                      0.093828             -0.08756
+                                  b_trans        b_trans_shift
+asc_pt                          -0.026264            -0.449503
+asc_cs                           0.007530          -4.1037e-04
+mu_log_b_tt                      0.013092            -0.041620
+sigma_log_b_tt_inter             0.010608            -0.006355
+sigma_log_b_tt_intra            -0.006253             0.002675
+gamma_btt_shift                  0.013679             0.042768
+b_cost                           0.186535            -0.395998
+b_cost_shift                    -0.172693             0.908892
+b_trans                          0.159196            -0.131098
+b_trans_shift                   -0.131098             0.727981
+b_crowd                          0.028154             0.030782
+b_crowd_shift                   -0.059552             0.139372
+b_share                          0.061860            -0.065477
+b_share_shift                    0.045304             0.250663
+b_pta                           -0.035261             0.118657
+b_pta_shift                      0.044253            -0.126339
+b_csa                           -0.001419          -7.5050e-04
+b_csa_shift                    6.6069e-04             0.004753
+cost_income_elast                0.025107            -0.086276
+scale_worst                      0.003582            -0.015885
+                                  b_crowd        b_crowd_shift
+asc_pt                          -0.171675            -0.273255
+asc_cs                           0.006242             0.015019
+mu_log_b_tt                     -0.058176             0.003213
+sigma_log_b_tt_inter            -0.023859          -8.1922e-04
+sigma_log_b_tt_intra            -0.006721             0.016877
+gamma_btt_shift                  0.041869            -0.050704
+b_cost                           0.058308            -0.380569
+b_cost_shift                    -0.155007             1.323121
+b_trans                          0.028154            -0.059552
+b_trans_shift                    0.030782             0.139372
+b_crowd                          0.741360            -0.696801
+b_crowd_shift                   -0.696801             1.609440
+b_share                         -0.059295             0.286898
+b_share_shift                    0.078820             0.049788
+b_pta                           -0.029359             0.120012
+b_pta_shift                      0.063284            -0.088875
+b_csa                           -0.001364            -0.001449
+b_csa_shift                     -0.002145             0.003503
+cost_income_elast                0.075212            -0.106341
+scale_worst                     -0.007381            -0.022309
+                                  b_share        b_share_shift
+asc_pt                           0.102782            -0.125049
+asc_cs                           0.118875             0.070089
+mu_log_b_tt                      0.075073            -0.031559
+sigma_log_b_tt_inter             0.005559             0.049841
+sigma_log_b_tt_intra            -0.015783            -0.003291
+gamma_btt_shift                 -0.055254             0.240290
+b_cost                          -0.432397             0.284473
+b_cost_shift                     0.214547             1.335993
+b_trans                          0.061860             0.045304
+b_trans_shift                   -0.065477             0.250663
+b_crowd                         -0.059295             0.078820
+b_crowd_shift                    0.286898             0.049788
+b_share                          6.146634            -5.961985
+b_share_shift                   -5.961985            10.104801
+b_pta                         -7.3701e-04            -0.022398
+b_pta_shift                     -0.041612             0.065313
+b_csa                            0.025853            -0.067493
+b_csa_shift                     -0.075402             0.113195
+cost_income_elast                0.009331            -0.115532
+scale_worst                     -0.134550             0.105053
+                                    b_pta          b_pta_shift
+asc_pt                          -0.258525            -0.025934
+asc_cs                          -0.038953            -0.005500
+mu_log_b_tt                     -0.011682            -0.001171
+sigma_log_b_tt_inter             0.003098             0.002578
+sigma_log_b_tt_intra             0.001269           9.2499e-04
+gamma_btt_shift                  0.008206             0.008733
+b_cost                          -0.089236            -0.020335
+b_cost_shift                     0.148080            -0.017914
+b_trans                         -0.035261             0.044253
+b_trans_shift                    0.118657            -0.126339
+b_crowd                         -0.029359             0.063284
+b_crowd_shift                    0.120012            -0.088875
+b_share                       -7.3701e-04            -0.041612
+b_share_shift                   -0.022398             0.065313
+b_pta                            0.068322            -0.016557
+b_pta_shift                     -0.016557             0.054303
+b_csa                            0.010165            -0.001072
+b_csa_shift                   -5.8330e-04             0.004879
+cost_income_elast               -0.019936             0.015253
+scale_worst                     -0.005624          -9.4402e-04
+                                    b_csa          b_csa_shift
+asc_pt                          -0.035437            -0.007226
+asc_cs                          -0.028710            -0.005789
+mu_log_b_tt                    2.6469e-04           3.8719e-04
+sigma_log_b_tt_inter           7.6440e-04           2.4186e-04
+sigma_log_b_tt_intra          -4.0166e-04             0.001219
+gamma_btt_shift                9.3575e-04            -0.001946
+b_cost                         8.7785e-04            -0.021446
+b_cost_shift                    -0.027450             0.088720
+b_trans                         -0.001419           6.6069e-04
+b_trans_shift                 -7.5050e-04             0.004753
+b_crowd                         -0.001364            -0.002145
+b_crowd_shift                   -0.001449             0.003503
+b_share                          0.025853            -0.075402
+b_share_shift                   -0.067493             0.113195
+b_pta                            0.010165          -5.8330e-04
+b_pta_shift                     -0.001072             0.004879
+b_csa                            0.008158          -7.4534e-04
+b_csa_shift                   -7.4534e-04             0.005516
+cost_income_elast               -0.002789            -0.003940
+scale_worst                    6.7148e-04             0.001221
+                        cost_income_elast          scale_worst
+asc_pt                           0.033270             0.035143
+asc_cs                           0.004783            -0.002604
+mu_log_b_tt                     -0.010792             0.005866
+sigma_log_b_tt_inter            -0.013001             0.002427
+sigma_log_b_tt_intra             0.006623          -4.0807e-04
+gamma_btt_shift                  0.013308            -0.005046
+b_cost                           0.238339             0.093828
+b_cost_shift                    -0.764579            -0.087560
+b_trans                          0.025107             0.003582
+b_trans_shift                   -0.086276            -0.015885
+b_crowd                          0.075212            -0.007381
+b_crowd_shift                   -0.106341            -0.022309
+b_share                          0.009331            -0.134550
+b_share_shift                   -0.115532             0.105053
+b_pta                           -0.019936            -0.005624
+b_pta_shift                      0.015253          -9.4402e-04
+b_csa                           -0.002789           6.7148e-04
+b_csa_shift                     -0.003940             0.001221
+cost_income_elast                0.221194             0.002013
+scale_worst                      0.002013             0.013473
+
+Classical correlation matrix:
+                                   asc_pt               asc_cs
+asc_pt                           1.000000             0.347928
+asc_cs                           0.347928             1.000000
+mu_log_b_tt                      0.082837           5.2188e-04
+sigma_log_b_tt_inter            -0.028876            -0.007852
+sigma_log_b_tt_intra            -0.003297             0.003683
+gamma_btt_shift                  0.040790             0.012483
+b_cost                          -0.013177             0.010876
+b_cost_shift                    -0.004970             0.045662
+b_trans                         -0.236786            -0.002850
+b_trans_shift                   -0.104827             0.016064
+b_crowd                         -0.124383            -0.015705
+b_crowd_shift                   -0.208190             0.005361
+b_share                          0.191145             0.232081
+b_share_shift                   -0.032961             0.009911
+b_pta                           -0.632899            -0.241318
+b_pta_shift                     -0.098540            -0.042759
+b_csa                           -0.252443            -0.829867
+b_csa_shift                     -0.073779            -0.193499
+cost_income_elast                0.021189            -0.014309
+scale_worst                     -0.197676            -0.213609
+                              mu_log_b_tt sigma_log_b_tt_inter
+asc_pt                           0.082837            -0.028876
+asc_cs                         5.2188e-04            -0.007852
+mu_log_b_tt                      1.000000             0.698434
+sigma_log_b_tt_inter             0.698434             1.000000
+sigma_log_b_tt_intra            -0.396215            -0.359440
+gamma_btt_shift                 -0.370564            -0.026517
+b_cost                          -0.077701            -0.018820
+b_cost_shift                     0.040836             0.006685
+b_trans                          0.104750             0.111304
+b_trans_shift                   -0.048783            -0.005483
+b_crowd                         -0.026038             0.011301
+b_crowd_shift                   -0.021443            -0.012504
+b_share                          0.142525             0.076442
+b_share_shift                   -0.080949            -0.031475
+b_pta                            0.013955             0.038468
+b_pta_shift                     -0.069512            -0.010521
+b_csa                           -0.010121             0.001105
+b_csa_shift                      0.006419             0.003715
+cost_income_elast                0.001483            -0.001484
+scale_worst                     -0.088483            -0.034087
+                     sigma_log_b_tt_intra      gamma_btt_shift
+asc_pt                          -0.003297             0.040790
+asc_cs                           0.003683             0.012483
+mu_log_b_tt                     -0.396215            -0.370564
+sigma_log_b_tt_inter            -0.359440            -0.026517
+sigma_log_b_tt_intra             1.000000             0.040900
+gamma_btt_shift                  0.040900             1.000000
+b_cost                          -0.110585             0.045659
+b_cost_shift                     0.055405            -0.055892
+b_trans                         -0.061390            -0.051274
+b_trans_shift                   -0.014807             0.162781
+b_crowd                         -0.046860             0.012704
+b_crowd_shift                    0.063475            -0.049218
+b_share                         -0.079560            -0.034103
+b_share_shift                    0.044318             0.100070
+b_pta                           -0.032267            -0.060272
+b_pta_shift                      0.047740             0.047696
+b_csa                           -0.034626             0.004539
+b_csa_shift                      0.040490            -0.028870
+cost_income_elast                0.030335             0.014416
+scale_worst                      0.058952            -0.014746
+                                   b_cost         b_cost_shift
+asc_pt                           -0.01318            -0.004970
+asc_cs                            0.01088             0.045662
+mu_log_b_tt                      -0.07770             0.040836
+sigma_log_b_tt_inter             -0.01882             0.006685
+sigma_log_b_tt_intra             -0.11058             0.055405
+gamma_btt_shift                   0.04566            -0.055892
+b_cost                            1.00000            -0.679036
+b_cost_shift                     -0.67904             1.000000
+b_trans                           0.20022            -0.122955
+b_trans_shift                    -0.16041             0.265513
+b_crowd                           0.11623            -0.076477
+b_crowd_shift                    -0.09420             0.139671
+b_share                           0.03720            -0.044669
+b_share_shift                    -0.03787             0.152153
+b_pta                             0.08890            -0.056911
+b_pta_shift                      -0.09150             0.152209
+b_csa                             0.18697            -0.176608
+b_csa_shift                      -0.21253             0.357926
+cost_income_elast                 0.35779            -0.443547
+scale_worst                       0.37131            -0.162491
+                                  b_trans        b_trans_shift
+asc_pt                          -0.236786            -0.104827
+asc_cs                          -0.002850             0.016064
+mu_log_b_tt                      0.104750            -0.048783
+sigma_log_b_tt_inter             0.111304            -0.005483
+sigma_log_b_tt_intra            -0.061390            -0.014807
+gamma_btt_shift                 -0.051274             0.162781
+b_cost                           0.200220            -0.160411
+b_cost_shift                    -0.122955             0.265513
+b_trans                          1.000000            -0.636248
+b_trans_shift                   -0.636248             1.000000
+b_crowd                         -0.030124             0.058492
+b_crowd_shift                    0.100839            -0.097449
+b_share                          0.054251            -0.062606
+b_share_shift                   -0.050563             0.139311
+b_pta                           -0.354668             0.426849
+b_pta_shift                      0.509996            -0.595231
+b_csa                            0.060557            -0.067175
+b_csa_shift                     -0.073026             0.133417
+cost_income_elast                0.023711            -0.087294
+scale_worst                      0.066619            -0.026059
+                                  b_crowd        b_crowd_shift
+asc_pt                          -0.124383            -0.208190
+asc_cs                          -0.015705             0.005361
+mu_log_b_tt                     -0.026038            -0.021443
+sigma_log_b_tt_inter             0.011301            -0.012504
+sigma_log_b_tt_intra            -0.046860             0.063475
+gamma_btt_shift                  0.012704            -0.049218
+b_cost                           0.116234            -0.094203
+b_cost_shift                    -0.076477             0.139671
+b_trans                         -0.030124             0.100839
+b_trans_shift                    0.058492            -0.097449
+b_crowd                          1.000000            -0.722251
+b_crowd_shift                   -0.722251             1.000000
+b_share                         -0.010512            -0.036055
+b_share_shift                   -0.002218             0.031657
+b_pta                           -0.175459             0.320945
+b_pta_shift                      0.256256            -0.226056
+b_csa                            0.041727            -0.040900
+b_csa_shift                     -0.034172             0.077218
+cost_income_elast                0.039708            -0.068344
+scale_worst                      0.050615             0.011933
+                                  b_share        b_share_shift
+asc_pt                            0.19115            -0.032961
+asc_cs                            0.23208             0.009911
+mu_log_b_tt                       0.14252            -0.080949
+sigma_log_b_tt_inter              0.07644            -0.031475
+sigma_log_b_tt_intra             -0.07956             0.044318
+gamma_btt_shift                  -0.03410             0.100070
+b_cost                            0.03720            -0.037873
+b_cost_shift                     -0.04467             0.152153
+b_trans                           0.05425            -0.050563
+b_trans_shift                    -0.06261             0.139311
+b_crowd                          -0.01051            -0.002218
+b_crowd_shift                    -0.03606             0.031657
+b_share                           1.00000            -0.689788
+b_share_shift                    -0.68979             1.000000
+b_pta                             0.09023            -0.138621
+b_pta_shift                      -0.22708             0.286415
+b_csa                             0.15979            -0.267857
+b_csa_shift                      -0.46753             0.628138
+cost_income_elast                 0.03395            -0.063545
+scale_worst                      -0.32431             0.197410
+                                    b_pta          b_pta_shift
+asc_pt                          -0.632899             -0.09854
+asc_cs                          -0.241318             -0.04276
+mu_log_b_tt                      0.013955             -0.06951
+sigma_log_b_tt_inter             0.038468             -0.01052
+sigma_log_b_tt_intra            -0.032267              0.04774
+gamma_btt_shift                 -0.060272              0.04770
+b_cost                           0.088897             -0.09150
+b_cost_shift                    -0.056911              0.15221
+b_trans                         -0.354668              0.51000
+b_trans_shift                    0.426849             -0.59523
+b_crowd                         -0.175459              0.25626
+b_crowd_shift                    0.320945             -0.22606
+b_share                          0.090234             -0.22708
+b_share_shift                   -0.138621              0.28642
+b_pta                            1.000000             -0.51965
+b_pta_shift                     -0.519654              1.00000
+b_csa                            0.297782             -0.08530
+b_csa_shift                     -0.090123              0.31094
+cost_income_elast                0.008350             -0.03970
+scale_worst                      0.092387              0.04382
+                                    b_csa          b_csa_shift
+asc_pt                          -0.252443            -0.073779
+asc_cs                          -0.829867            -0.193499
+mu_log_b_tt                     -0.010121             0.006419
+sigma_log_b_tt_inter             0.001105             0.003715
+sigma_log_b_tt_intra            -0.034626             0.040490
+gamma_btt_shift                  0.004539            -0.028870
+b_cost                           0.186968            -0.212527
+b_cost_shift                    -0.176608             0.357926
+b_trans                          0.060557            -0.073026
+b_trans_shift                   -0.067175             0.133417
+b_crowd                          0.041727            -0.034172
+b_crowd_shift                   -0.040900             0.077218
+b_share                          0.159791            -0.467530
+b_share_shift                   -0.267857             0.628138
+b_pta                            0.297782            -0.090123
+b_pta_shift                     -0.085295             0.310943
+b_csa                            1.000000            -0.197541
+b_csa_shift                     -0.197541             1.000000
+cost_income_elast                0.049876            -0.118199
+scale_worst                      0.114495             0.207217
+                        cost_income_elast          scale_worst
+asc_pt                           0.021189            -0.197676
+asc_cs                          -0.014309            -0.213609
+mu_log_b_tt                      0.001483            -0.088483
+sigma_log_b_tt_inter            -0.001484            -0.034087
+sigma_log_b_tt_intra             0.030335             0.058952
+gamma_btt_shift                  0.014416            -0.014746
+b_cost                           0.357786             0.371311
+b_cost_shift                    -0.443547            -0.162491
+b_trans                          0.023711             0.066619
+b_trans_shift                   -0.087294            -0.026059
+b_crowd                          0.039708             0.050615
+b_crowd_shift                   -0.068344             0.011933
+b_share                          0.033947            -0.324308
+b_share_shift                   -0.063545             0.197410
+b_pta                            0.008350             0.092387
+b_pta_shift                     -0.039704             0.043818
+b_csa                            0.049876             0.114495
+b_csa_shift                     -0.118199             0.207217
+cost_income_elast                1.000000            -0.002325
+scale_worst                     -0.002325             1.000000
+
+Robust correlation matrix:
+                                   asc_pt               asc_cs
+asc_pt                            1.00000             0.396892
+asc_cs                            0.39689             1.000000
+mu_log_b_tt                       0.19684            -0.058009
+sigma_log_b_tt_inter             -0.06204            -0.088583
+sigma_log_b_tt_intra             -0.03078             0.017003
+gamma_btt_shift                  -0.15512            -0.020809
+b_cost                            0.26186             0.125297
+b_cost_shift                     -0.20541             0.040242
+b_trans                          -0.05566             0.051821
+b_trans_shift                    -0.44547            -0.001321
+b_crowd                          -0.16859             0.019904
+b_crowd_shift                    -0.18213             0.032506
+b_share                           0.03505             0.131656
+b_share_shift                    -0.03326             0.060542
+b_pta                            -0.83631            -0.409190
+b_pta_shift                      -0.09410            -0.064804
+b_csa                            -0.33175            -0.872777
+b_csa_shift                      -0.08227            -0.214041
+cost_income_elast                 0.05982             0.027922
+scale_worst                       0.25601            -0.061590
+                              mu_log_b_tt sigma_log_b_tt_inter
+asc_pt                           0.196839            -0.062038
+asc_cs                          -0.058009            -0.088583
+mu_log_b_tt                      1.000000             0.798331
+sigma_log_b_tt_inter             0.798331             1.000000
+sigma_log_b_tt_intra            -0.419986            -0.545709
+gamma_btt_shift                 -0.311375            -0.055955
+b_cost                           0.090427             0.065120
+b_cost_shift                    -0.099945            -0.076497
+b_trans                          0.103199             0.130783
+b_trans_shift                   -0.153417            -0.036638
+b_crowd                         -0.212500            -0.136311
+b_crowd_shift                    0.007964            -0.003177
+b_share                          0.095236             0.011029
+b_share_shift                   -0.031224             0.077127
+b_pta                           -0.140561             0.058296
+b_pta_shift                     -0.015807             0.054415
+b_csa                            0.009216             0.041630
+b_csa_shift                      0.016397             0.016019
+cost_income_elast               -0.072166            -0.135980
+scale_worst                      0.158938             0.102849
+                     sigma_log_b_tt_intra      gamma_btt_shift
+asc_pt                          -0.030776            -0.155118
+asc_cs                           0.017003            -0.020809
+mu_log_b_tt                     -0.419986            -0.311375
+sigma_log_b_tt_inter            -0.545709            -0.055955
+sigma_log_b_tt_intra             1.000000            -0.051485
+gamma_btt_shift                 -0.051485             1.000000
+b_cost                          -0.198722             0.009122
+b_cost_shift                     0.113482            -0.275464
+b_trans                         -0.122539             0.085645
+b_trans_shift                    0.024519             0.125215
+b_crowd                         -0.061042             0.121474
+b_crowd_shift                    0.104024            -0.099840
+b_share                         -0.049779            -0.055673
+b_share_shift                   -0.008095             0.188830
+b_pta                            0.037970             0.078424
+b_pta_shift                      0.031039             0.093616
+b_csa                           -0.034773             0.025880
+b_csa_shift                      0.128389            -0.065453
+cost_income_elast                0.110123             0.070687
+scale_worst                     -0.027491            -0.108593
+                                   b_cost         b_cost_shift
+asc_pt                           0.261858             -0.20541
+asc_cs                           0.125297              0.04024
+mu_log_b_tt                      0.090427             -0.09995
+sigma_log_b_tt_inter             0.065120             -0.07650
+sigma_log_b_tt_intra            -0.198722              0.11348
+gamma_btt_shift                  0.009122             -0.27546
+b_cost                           1.000000             -0.62170
+b_cost_shift                    -0.621697              1.00000
+b_trans                          0.258828             -0.12646
+b_trans_shift                   -0.256951              0.31124
+b_crowd                          0.037491             -0.05260
+b_crowd_shift                   -0.166078              0.30473
+b_share                         -0.096556              0.02528
+b_share_shift                    0.049544              0.12280
+b_pta                           -0.189007              0.16553
+b_pta_shift                     -0.048312             -0.02246
+b_csa                            0.005381             -0.08880
+b_csa_shift                     -0.159868              0.34903
+cost_income_elast                0.280559             -0.47499
+scale_worst                      0.447526             -0.22041
+                                  b_trans        b_trans_shift
+asc_pt                           -0.05566            -0.445467
+asc_cs                            0.05182            -0.001321
+mu_log_b_tt                       0.10320            -0.153417
+sigma_log_b_tt_inter              0.13078            -0.036638
+sigma_log_b_tt_intra             -0.12254             0.024519
+gamma_btt_shift                   0.08564             0.125215
+b_cost                            0.25883            -0.256951
+b_cost_shift                     -0.12646             0.311243
+b_trans                           1.00000            -0.385098
+b_trans_shift                    -0.38510             1.000000
+b_crowd                           0.08195             0.041900
+b_crowd_shift                    -0.11765             0.128759
+b_share                           0.06254            -0.030954
+b_share_shift                     0.03572             0.092420
+b_pta                            -0.33811             0.532053
+b_pta_shift                       0.47595            -0.635428
+b_csa                            -0.03937            -0.009738
+b_csa_shift                       0.02230             0.075013
+cost_income_elast                 0.13380            -0.215003
+scale_worst                       0.07735            -0.160402
+                                  b_crowd        b_crowd_shift
+asc_pt                           -0.16859            -0.182127
+asc_cs                            0.01990             0.032506
+mu_log_b_tt                      -0.21250             0.007964
+sigma_log_b_tt_inter             -0.13631            -0.003177
+sigma_log_b_tt_intra             -0.06104             0.104024
+gamma_btt_shift                   0.12147            -0.099840
+b_cost                            0.03749            -0.166078
+b_cost_shift                     -0.05260             0.304726
+b_trans                           0.08195            -0.117651
+b_trans_shift                     0.04190             0.128759
+b_crowd                           1.00000            -0.637906
+b_crowd_shift                    -0.63791             1.000000
+b_share                          -0.02778             0.091216
+b_share_shift                     0.02880             0.012346
+b_pta                            -0.13045             0.361917
+b_pta_shift                       0.31541            -0.300629
+b_csa                            -0.01753            -0.012648
+b_csa_shift                      -0.03355             0.037177
+cost_income_elast                 0.18573            -0.178228
+scale_worst                      -0.07386            -0.151503
+                                  b_share        b_share_shift
+asc_pt                           0.035054            -0.033263
+asc_cs                           0.131656             0.060542
+mu_log_b_tt                      0.095236            -0.031224
+sigma_log_b_tt_inter             0.011029             0.077127
+sigma_log_b_tt_intra            -0.049779            -0.008095
+gamma_btt_shift                 -0.055673             0.188830
+b_cost                          -0.096556             0.049544
+b_cost_shift                     0.025284             0.122797
+b_trans                          0.062536             0.035719
+b_trans_shift                   -0.030954             0.092420
+b_crowd                         -0.027777             0.028798
+b_crowd_shift                    0.091216             0.012346
+b_share                          1.000000            -0.756499
+b_share_shift                   -0.756499             1.000000
+b_pta                           -0.001137            -0.026957
+b_pta_shift                     -0.072026             0.088170
+b_csa                            0.115452            -0.235068
+b_csa_shift                     -0.409508             0.479472
+cost_income_elast                0.008002            -0.077277
+scale_worst                     -0.467560             0.284718
+                                    b_pta          b_pta_shift
+asc_pt                          -0.836308             -0.09410
+asc_cs                          -0.409190             -0.06480
+mu_log_b_tt                     -0.140561             -0.01581
+sigma_log_b_tt_inter             0.058296              0.05442
+sigma_log_b_tt_intra             0.037970              0.03104
+gamma_btt_shift                  0.078424              0.09362
+b_cost                          -0.189007             -0.04831
+b_cost_shift                     0.165525             -0.02246
+b_trans                         -0.338105              0.47595
+b_trans_shift                    0.532053             -0.63543
+b_crowd                         -0.130451              0.31541
+b_crowd_shift                    0.361917             -0.30063
+b_share                         -0.001137             -0.07203
+b_share_shift                   -0.026957              0.08817
+b_pta                            1.000000             -0.27183
+b_pta_shift                     -0.271834              1.00000
+b_csa                            0.430568             -0.05094
+b_csa_shift                     -0.030048              0.28191
+cost_income_elast               -0.162169              0.13917
+scale_worst                     -0.185368             -0.03490
+                                    b_csa          b_csa_shift
+asc_pt                          -0.331747             -0.08227
+asc_cs                          -0.872777             -0.21404
+mu_log_b_tt                      0.009216              0.01640
+sigma_log_b_tt_inter             0.041630              0.01602
+sigma_log_b_tt_intra            -0.034773              0.12839
+gamma_btt_shift                  0.025880             -0.06545
+b_cost                           0.005381             -0.15987
+b_cost_shift                    -0.088796              0.34903
+b_trans                         -0.039375              0.02230
+b_trans_shift                   -0.009738              0.07501
+b_crowd                         -0.017534             -0.03355
+b_crowd_shift                   -0.012648              0.03718
+b_share                          0.115452             -0.40951
+b_share_shift                   -0.235068              0.47947
+b_pta                            0.430568             -0.03005
+b_pta_shift                     -0.050941              0.28191
+b_csa                            1.000000             -0.11111
+b_csa_shift                     -0.111110              1.00000
+cost_income_elast               -0.065645             -0.11281
+scale_worst                      0.064048              0.14163
+                        cost_income_elast          scale_worst
+asc_pt                           0.059816              0.25601
+asc_cs                           0.027922             -0.06159
+mu_log_b_tt                     -0.072166              0.15894
+sigma_log_b_tt_inter            -0.135980              0.10285
+sigma_log_b_tt_intra             0.110123             -0.02749
+gamma_btt_shift                  0.070687             -0.10859
+b_cost                           0.280559              0.44753
+b_cost_shift                    -0.474987             -0.22041
+b_trans                          0.133798              0.07735
+b_trans_shift                   -0.215003             -0.16040
+b_crowd                          0.185731             -0.07386
+b_crowd_shift                   -0.178228             -0.15150
+b_share                          0.008002             -0.46756
+b_share_shift                   -0.077277              0.28472
+b_pta                           -0.162169             -0.18537
+b_pta_shift                      0.139171             -0.03490
+b_csa                           -0.065645              0.06405
+b_csa_shift                     -0.112809              0.14163
+cost_income_elast                1.000000              0.03688
+scale_worst                      0.036884              1.00000
+
+ 20 worst outliers in terms of lowest average per choice prediction:
+  ID Avg prob per choice
+ 170          0.02462088
+ 102          0.03125143
+ 200          0.04608573
+  67          0.07005742
+ 130          0.07648602
+  20          0.07724825
+  55          0.07899334
+  59          0.08841027
+ 108          0.09395591
+ 165          0.09567872
+ 175          0.09578083
+  60          0.09916991
+  66          0.09949964
+ 182          0.10119535
+ 166          0.10649382
+ 167          0.10662286
+  71          0.11597077
+ 119          0.11714244
+  16          0.11749281
+  21          0.12241685
+
+Changes in parameter estimates from starting values:
+                         Initial    Estimate  Difference
+asc_pt                   5.95787     5.94803   -0.009843
+asc_cs                   1.35363     1.35794    0.004315
+asc_rs                   0.00000     0.00000    0.000000
+mu_log_b_tt              3.13964     3.15508    0.015442
+sigma_log_b_tt_inter    -2.10794    -2.13515   -0.027208
+sigma_log_b_tt_intra     0.86529     0.84696   -0.018328
+gamma_btt_shift          0.95890     0.89503   -0.063868
+b_cost                  -6.70020    -6.69747    0.002734
+b_cost_shift             4.16503     4.24515    0.080120
+b_trans                 -0.45728    -0.46733   -0.010051
+b_trans_shift            0.36946     0.38120    0.011740
+b_crowd                 -3.29249    -3.28468    0.007808
+b_crowd_shift           -2.63752    -2.62532    0.012193
+b_share                  5.04312     5.09751    0.054388
+b_share_shift           -4.47034    -4.50630   -0.035956
+b_pta                   -0.42505    -0.41646    0.008593
+b_pta_shift             -0.64689    -0.65321   -0.006318
+b_csa                   -0.21891    -0.21937 -4.6253e-04
+b_csa_shift             -0.08491    -0.08467  2.3775e-04
+b_rsa                    0.00000     0.00000    0.000000
+b_rsa_shift              0.00000     0.00000    0.000000
+cost_income_elast        0.35397     0.33574   -0.018230
+scale_best               1.00000     1.00000    0.000000
+scale_worst              0.50679     0.50657 -2.1799e-04
+
+Settings and functions used in model definition:
+
+apollo_control
+--------------
+                       Value                  
+modelName              "MMNL_bestWorst"       
+modelDescr             "MMNL Best Worst model"
+indivID                "ID"                   
+analyticGrad           "TRUE"                 
+outputDirectory        "output/"              
+nCores                 "4"                    
+mixing                 "TRUE"                 
+debug                  "FALSE"                
+workInLogs             "FALSE"                
+seed                   "13"                   
+HB                     "FALSE"                
+noValidation           "FALSE"                
+noDiagnostics          "FALSE"                
+calculateLLC           "TRUE"                 
+panelData              "TRUE"                 
+analyticGrad_manualSet "TRUE"                 
+overridePanel          "FALSE"                
+preventOverridePanel   "FALSE"                
+noModification         "FALSE"                
+
+Hessian routines attempted
+--------------------------
+numerical jacobian of LL analytical gradient
+
+Scaling used in computing Hessian
+---------------------------------
+                          Value
+asc_pt               5.94802939
+asc_cs               1.35794282
+mu_log_b_tt          3.15508403
+sigma_log_b_tt_inter 2.13515081
+sigma_log_b_tt_intra 0.84696200
+gamma_btt_shift      0.89503049
+b_cost               6.69746538
+b_cost_shift         4.24515215
+b_trans              0.46732915
+b_trans_shift        0.38119951
+b_crowd              3.28467933
+b_crowd_shift        2.62532267
+b_share              5.09751185
+b_share_shift        4.50629903
+b_pta                0.41645912
+b_pta_shift          0.65321006
+b_csa                0.21937108
+b_csa_shift          0.08466926
+cost_income_elast    0.33573759
+scale_worst          0.50657365
+
+
+apollo_randCoeff
+------------------
+function(apollo_beta, apollo_inputs){
+  randcoeff = list()
+  
+
+  
+  randcoeff[["b_tt_value"]] =  -(exp(mu_log_b_tt
+                                + sigma_log_b_tt_inter * draws_tt_inter
+                                + sigma_log_b_tt_intra * draws_tt_intra) 
+                                * (gamma_btt_shift * mode_2023 + (1 - mode_2023)))
+  
+
+  
+  return(randcoeff)
+}
+<bytecode: 0x000001c6f66216e8>
+
+
+apollo_probabilities
+----------------------
+function(apollo_beta, apollo_inputs, functionality="estimate"){
+  
+  ### Attach inputs and detach after function exit
+  apollo_attach(apollo_beta, apollo_inputs)
+  on.exit(apollo_detach(apollo_beta, apollo_inputs))
+  
+  ### Create list of probabilities P
+  P = list()
+  
+  ### Create alternative specific constants and coefficients using interactions with socio-demographics
+  b_cost_value    = (b_cost + b_cost_shift * mode_2023) * (mean_income / income_2) ^ cost_income_elast
+  b_pta_value     = b_pta + b_pta_shift * mode_2023
+  b_csa_value     = b_csa + b_csa_shift * mode_2023
+  b_rsa_value     = b_rsa + b_rsa_shift * mode_2023
+
+
+  b_share_value   = b_share + b_share_shift * mode_2023
+  b_crowd_value   = b_crowd + b_crowd_shift * mode_2023
+  b_trans_value   = b_trans + b_trans_shift * mode_2023
+  
+  ### List of utilities: these must use the same names as in mnl_settings, order is irrelevant
+  V = list()
+  V[["pt"]]  = asc_pt + b_cost_value * pt1_cost_s + b_tt_value * pt1_tt_s + b_pta_value * age_s + b_crowd_value * pt1_crowd_s + b_trans_value * pt1_trans_s
+  V[["cs"]]  = asc_cs + b_cost_value * cs2_cost_s + b_tt_value * cs2_tt_s + b_csa_value * age_s
+  V[["rs"]]  = asc_rs + b_cost_value * rs3_cost_s + b_tt_value * rs3_tt_s + b_rsa_value * age_s + b_share_value * rs3_share_s
+  
+  
+  ### Compute probabilities for "best" choice using MNL model
+  mnl_settings_best = list(
+    alternatives = c(pt=1, cs=2, rs=3),
+    avail        = 1,
+    choiceVar    = choice_best,
+    utilities    = list(pt  = scale_best*V[["pt"]],
+                        cs  = scale_best*V[["cs"]],
+                        rs  = scale_best*V[["rs"]]),
+    componentName = "best"
+  )
+  P[["choice_best"]] = apollo_mnl(mnl_settings_best, functionality)
+  
+  ### Compute probabilities for "worst" choice using MNL model
+  mnl_settings_worst = list(
+    alternatives = c(pt=1, cs=2, rs=3),
+    avail        = list(pt=(choice_best!=1), cs=(choice_best!=2), rs=(choice_best!=3)),
+    choiceVar    = choice_worst,
+    utilities    = list(pt  = -scale_worst*V[["pt"]],
+                        cs  = -scale_worst*V[["cs"]],
+                        rs  = -scale_worst*V[["rs"]]),
+    componentName = "worst"
+  )
+  
+  P[["choice_worst"]] = apollo_mnl(mnl_settings_worst, functionality)
+  
+  ### Combined model
+  P = apollo_combineModels(P, apollo_inputs, functionality)
+  
+  ### Average across intra-individual draws
+  P = apollo_avgIntraDraws(P, apollo_inputs, functionality)
+  
+  ### Take product across observation for same individual
+  P = apollo_panelProd(P, apollo_inputs, functionality)
+  
+  ### Average across inter-individual draws
+  P = apollo_avgInterDraws(P, apollo_inputs, functionality)
+  
+  ### Prepare and return outputs of function
+  P = apollo_prepareProb(P, apollo_inputs, functionality)
+  
+  return(P)
+}

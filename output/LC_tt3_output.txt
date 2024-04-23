@@ -1,0 +1,1451 @@
+Model run by yangziyuan using Apollo 0.3.1 on R 4.3.2 for Darwin.
+Please acknowledge the use of Apollo by citing Hess & Palma (2019)
+  DOI 10.1016/j.jocm.2019.100170
+  www.ApolloChoiceModelling.com
+
+Model name                                  : LC_tt3
+Model description                           : LC model
+Model run at                                : 2024-01-01 17:03:33.559683
+Estimation method                           : bgw
+Model diagnosis                             : Singular convergence
+Number of individuals                       : 213
+Number of rows in database                  : 1704
+Number of modelled outcomes                 : 1704
+
+Number of cores used                        :  7 
+Model without mixing
+
+LL(start)                                   : -982.67
+LL (whole model) at equal shares, LL(0)     : -1872.04
+LL (whole model) at observed shares, LL(C)  : -1382.72
+LL(final, whole model)                      : -922.67
+Rho-squared vs equal shares                  :  0.5071 
+Adj.Rho-squared vs equal shares              :  0.4874 
+Rho-squared vs observed shares               :  0.3327 
+Adj.Rho-squared vs observed shares           :  0.3117 
+AIC                                         :  1919.33 
+BIC                                         :  2120.64 
+
+LL(0,Class_1)                    : -1872.04
+LL(final,Class_1)                : -Inf Likelihood equal to zero for at least
+                                        one individual in this component.
+LL(0,Class_2)                    : -1872.04
+LL(final,Class_2)                : -2966.55
+LL(0,Class_3)                    : -1872.04
+LL(final,Class_3)                : -3188.13
+LL(0,Class_4)                    : -1872.04
+LL(final,Class_4)                : -1617.08
+
+Estimated parameters                        : 37
+Time taken (hh:mm:ss)                       :  00:01:5.85 
+     pre-estimation                         :  00:00:16 
+     estimation                             :  00:00:49.73 
+     post-estimation                        :  00:00:0.11 
+Iterations                                  :  442 (Singular convergence) 
+
+Unconstrained optimisation.
+
+Estimates:
+                  Estimate        s.e.   t.rat.(0)    Rob.s.e. Rob.t.rat.(0)
+asc_pt             3.72351          NA          NA          NA            NA
+asc_cs             1.27150          NA          NA          NA            NA
+asc_rs             0.00000          NA          NA          NA            NA
+b_tt              -0.06661          NA          NA          NA            NA
+b_tt_shift     -3.3957e-04          NA          NA          NA            NA
+b_tt_shift2       -4.15995          NA          NA          NA            NA
+b_tt_shift3       -3.44924          NA          NA          NA            NA
+b_cost           -36.10969          NA          NA          NA            NA
+b_cost_shift      -4.10350          NA          NA          NA            NA
+b_cost_shift2     -9.52489          NA          NA          NA            NA
+b_cost_shift3     -5.61872          NA          NA          NA            NA
+b_trans           -1.19935          NA          NA          NA            NA
+b_trans_shift     -1.80626          NA          NA          NA            NA
+b_trans_shift2     4.19585          NA          NA          NA            NA
+b_trans_shift3     0.68137          NA          NA          NA            NA
+b_crowd          130.95861          NA          NA          NA            NA
+b_crowd_shift     -1.17853          NA          NA          NA            NA
+b_crowd_shift2   -27.72244          NA          NA          NA            NA
+b_crowd_shift3    -1.68864          NA          NA          NA            NA
+b_disin            0.10358          NA          NA          NA            NA
+b_disin_shift      0.88166          NA          NA          NA            NA
+b_disin_shift2     0.25751          NA          NA          NA            NA
+b_disin_shift3    -0.44494          NA          NA          NA            NA
+b_share        -9301.04427          NA          NA          NA            NA
+b_share_shift    1.435e+04          NA          NA          NA            NA
+b_share_shift2     0.65269          NA          NA          NA            NA
+b_share_shift3    -1.04643          NA          NA          NA            NA
+b_pta             37.59730          NA          NA          NA            NA
+b_pta_shift       -1.03931          NA          NA          NA            NA
+b_pta_shift2       0.41553          NA          NA          NA            NA
+b_pta_shift3      -0.79529          NA          NA          NA            NA
+b_csa             37.42968          NA          NA          NA            NA
+b_csa_shift       -0.83188          NA          NA          NA            NA
+b_csa_shift2      -0.36012          NA          NA          NA            NA
+b_csa_shift3      -0.05665          NA          NA          NA            NA
+b_rsa              0.00000          NA          NA          NA            NA
+b_rsa_shift        0.00000          NA          NA          NA            NA
+b_rsa_shift2       0.00000          NA          NA          NA            NA
+b_rsa_shift3       0.00000          NA          NA          NA            NA
+delta_b           -1.34438          NA          NA          NA            NA
+delta_c           -0.70989          NA          NA          NA            NA
+delta_d           -0.55694          NA          NA          NA            NA
+
+
+Summary of class allocation for model component :
+         Mean prob.
+Class_1      0.4300
+Class_2      0.1121
+Class_3      0.2115
+Class_4      0.2464
+
+
+Overview of choices for MNL model component Class_1:
+                                      pt      cs      rs
+Times available                  1704.00 1704.00 1704.00
+Times chosen                     1194.00  307.00  203.00
+Percentage chosen overall          70.07   18.02   11.91
+Percentage chosen when available   70.07   18.02   11.91
+
+
+
+Overview of choices for MNL model component Class_2:
+                                      pt      cs      rs
+Times available                  1704.00 1704.00 1704.00
+Times chosen                     1194.00  307.00  203.00
+Percentage chosen overall          70.07   18.02   11.91
+Percentage chosen when available   70.07   18.02   11.91
+
+
+
+Overview of choices for MNL model component Class_3:
+                                      pt      cs      rs
+Times available                  1704.00 1704.00 1704.00
+Times chosen                     1194.00  307.00  203.00
+Percentage chosen overall          70.07   18.02   11.91
+Percentage chosen when available   70.07   18.02   11.91
+
+
+
+Overview of choices for MNL model component Class_4:
+                                      pt      cs      rs
+Times available                  1704.00 1704.00 1704.00
+Times chosen                     1194.00  307.00  203.00
+Percentage chosen overall          70.07   18.02   11.91
+Percentage chosen when available   70.07   18.02   11.91
+
+
+
+Classical covariance matrix:
+                       asc_pt         asc_cs           b_tt     b_tt_shift
+asc_pt                     NA             NA             NA             NA
+asc_cs                     NA             NA             NA             NA
+b_tt                       NA             NA             NA             NA
+b_tt_shift                 NA             NA             NA             NA
+b_tt_shift2                NA             NA             NA             NA
+b_tt_shift3                NA             NA             NA             NA
+b_cost                     NA             NA             NA             NA
+b_cost_shift               NA             NA             NA             NA
+b_cost_shift2              NA             NA             NA             NA
+b_cost_shift3              NA             NA             NA             NA
+b_trans                    NA             NA             NA             NA
+b_trans_shift              NA             NA             NA             NA
+b_trans_shift2             NA             NA             NA             NA
+b_trans_shift3             NA             NA             NA             NA
+b_crowd                    NA             NA             NA             NA
+b_crowd_shift              NA             NA             NA             NA
+b_crowd_shift2             NA             NA             NA             NA
+b_crowd_shift3             NA             NA             NA             NA
+b_disin                    NA             NA             NA             NA
+b_disin_shift              NA             NA             NA             NA
+b_disin_shift2             NA             NA             NA             NA
+b_disin_shift3             NA             NA             NA             NA
+b_share                    NA             NA             NA             NA
+b_share_shift              NA             NA             NA             NA
+b_share_shift2             NA             NA             NA             NA
+b_share_shift3             NA             NA             NA             NA
+b_pta                      NA             NA             NA             NA
+                  b_tt_shift2    b_tt_shift3         b_cost   b_cost_shift
+asc_pt                     NA             NA             NA             NA
+asc_cs                     NA             NA             NA             NA
+b_tt                       NA             NA             NA             NA
+b_tt_shift                 NA             NA             NA             NA
+b_tt_shift2                NA             NA             NA             NA
+b_tt_shift3                NA             NA             NA             NA
+b_cost                     NA             NA             NA             NA
+b_cost_shift               NA             NA             NA             NA
+b_cost_shift2              NA             NA             NA             NA
+b_cost_shift3              NA             NA             NA             NA
+b_trans                    NA             NA             NA             NA
+b_trans_shift              NA             NA             NA             NA
+b_trans_shift2             NA             NA             NA             NA
+b_trans_shift3             NA             NA             NA             NA
+b_crowd                    NA             NA             NA             NA
+b_crowd_shift              NA             NA             NA             NA
+b_crowd_shift2             NA             NA             NA             NA
+b_crowd_shift3             NA             NA             NA             NA
+b_disin                    NA             NA             NA             NA
+b_disin_shift              NA             NA             NA             NA
+b_disin_shift2             NA             NA             NA             NA
+b_disin_shift3             NA             NA             NA             NA
+b_share                    NA             NA             NA             NA
+b_share_shift              NA             NA             NA             NA
+b_share_shift2             NA             NA             NA             NA
+b_share_shift3             NA             NA             NA             NA
+b_pta                      NA             NA             NA             NA
+                b_cost_shift2  b_cost_shift3        b_trans  b_trans_shift
+asc_pt                     NA             NA             NA             NA
+asc_cs                     NA             NA             NA             NA
+b_tt                       NA             NA             NA             NA
+b_tt_shift                 NA             NA             NA             NA
+b_tt_shift2                NA             NA             NA             NA
+b_tt_shift3                NA             NA             NA             NA
+b_cost                     NA             NA             NA             NA
+b_cost_shift               NA             NA             NA             NA
+b_cost_shift2              NA             NA             NA             NA
+b_cost_shift3              NA             NA             NA             NA
+b_trans                    NA             NA             NA             NA
+b_trans_shift              NA             NA             NA             NA
+b_trans_shift2             NA             NA             NA             NA
+b_trans_shift3             NA             NA             NA             NA
+b_crowd                    NA             NA             NA             NA
+b_crowd_shift              NA             NA             NA             NA
+b_crowd_shift2             NA             NA             NA             NA
+b_crowd_shift3             NA             NA             NA             NA
+b_disin                    NA             NA             NA             NA
+b_disin_shift              NA             NA             NA             NA
+b_disin_shift2             NA             NA             NA             NA
+b_disin_shift3             NA             NA             NA             NA
+b_share                    NA             NA             NA             NA
+b_share_shift              NA             NA             NA             NA
+b_share_shift2             NA             NA             NA             NA
+b_share_shift3             NA             NA             NA             NA
+b_pta                      NA             NA             NA             NA
+               b_trans_shift2 b_trans_shift3        b_crowd  b_crowd_shift
+asc_pt                     NA             NA             NA             NA
+asc_cs                     NA             NA             NA             NA
+b_tt                       NA             NA             NA             NA
+b_tt_shift                 NA             NA             NA             NA
+b_tt_shift2                NA             NA             NA             NA
+b_tt_shift3                NA             NA             NA             NA
+b_cost                     NA             NA             NA             NA
+b_cost_shift               NA             NA             NA             NA
+b_cost_shift2              NA             NA             NA             NA
+b_cost_shift3              NA             NA             NA             NA
+b_trans                    NA             NA             NA             NA
+b_trans_shift              NA             NA             NA             NA
+b_trans_shift2             NA             NA             NA             NA
+b_trans_shift3             NA             NA             NA             NA
+b_crowd                    NA             NA             NA             NA
+b_crowd_shift              NA             NA             NA             NA
+b_crowd_shift2             NA             NA             NA             NA
+b_crowd_shift3             NA             NA             NA             NA
+b_disin                    NA             NA             NA             NA
+b_disin_shift              NA             NA             NA             NA
+b_disin_shift2             NA             NA             NA             NA
+b_disin_shift3             NA             NA             NA             NA
+b_share                    NA             NA             NA             NA
+b_share_shift              NA             NA             NA             NA
+b_share_shift2             NA             NA             NA             NA
+b_share_shift3             NA             NA             NA             NA
+b_pta                      NA             NA             NA             NA
+               b_crowd_shift2 b_crowd_shift3        b_disin  b_disin_shift
+asc_pt                     NA             NA             NA             NA
+asc_cs                     NA             NA             NA             NA
+b_tt                       NA             NA             NA             NA
+b_tt_shift                 NA             NA             NA             NA
+b_tt_shift2                NA             NA             NA             NA
+b_tt_shift3                NA             NA             NA             NA
+b_cost                     NA             NA             NA             NA
+b_cost_shift               NA             NA             NA             NA
+b_cost_shift2              NA             NA             NA             NA
+b_cost_shift3              NA             NA             NA             NA
+b_trans                    NA             NA             NA             NA
+b_trans_shift              NA             NA             NA             NA
+b_trans_shift2             NA             NA             NA             NA
+b_trans_shift3             NA             NA             NA             NA
+b_crowd                    NA             NA             NA             NA
+b_crowd_shift              NA             NA             NA             NA
+b_crowd_shift2             NA             NA             NA             NA
+b_crowd_shift3             NA             NA             NA             NA
+b_disin                    NA             NA             NA             NA
+b_disin_shift              NA             NA             NA             NA
+b_disin_shift2             NA             NA             NA             NA
+b_disin_shift3             NA             NA             NA             NA
+b_share                    NA             NA             NA             NA
+b_share_shift              NA             NA             NA             NA
+b_share_shift2             NA             NA             NA             NA
+b_share_shift3             NA             NA             NA             NA
+b_pta                      NA             NA             NA             NA
+               b_disin_shift2 b_disin_shift3        b_share  b_share_shift
+asc_pt                     NA             NA             NA             NA
+asc_cs                     NA             NA             NA             NA
+b_tt                       NA             NA             NA             NA
+b_tt_shift                 NA             NA             NA             NA
+b_tt_shift2                NA             NA             NA             NA
+b_tt_shift3                NA             NA             NA             NA
+b_cost                     NA             NA             NA             NA
+b_cost_shift               NA             NA             NA             NA
+b_cost_shift2              NA             NA             NA             NA
+b_cost_shift3              NA             NA             NA             NA
+b_trans                    NA             NA             NA             NA
+b_trans_shift              NA             NA             NA             NA
+b_trans_shift2             NA             NA             NA             NA
+b_trans_shift3             NA             NA             NA             NA
+b_crowd                    NA             NA             NA             NA
+b_crowd_shift              NA             NA             NA             NA
+b_crowd_shift2             NA             NA             NA             NA
+b_crowd_shift3             NA             NA             NA             NA
+b_disin                    NA             NA             NA             NA
+b_disin_shift              NA             NA             NA             NA
+b_disin_shift2             NA             NA             NA             NA
+b_disin_shift3             NA             NA             NA             NA
+b_share                    NA             NA             NA             NA
+b_share_shift              NA             NA             NA             NA
+b_share_shift2             NA             NA             NA             NA
+b_share_shift3             NA             NA             NA             NA
+b_pta                      NA             NA             NA             NA
+               b_share_shift2 b_share_shift3          b_pta    b_pta_shift
+asc_pt                     NA             NA             NA             NA
+asc_cs                     NA             NA             NA             NA
+b_tt                       NA             NA             NA             NA
+b_tt_shift                 NA             NA             NA             NA
+b_tt_shift2                NA             NA             NA             NA
+b_tt_shift3                NA             NA             NA             NA
+b_cost                     NA             NA             NA             NA
+b_cost_shift               NA             NA             NA             NA
+b_cost_shift2              NA             NA             NA             NA
+b_cost_shift3              NA             NA             NA             NA
+b_trans                    NA             NA             NA             NA
+b_trans_shift              NA             NA             NA             NA
+b_trans_shift2             NA             NA             NA             NA
+b_trans_shift3             NA             NA             NA             NA
+b_crowd                    NA             NA             NA             NA
+b_crowd_shift              NA             NA             NA             NA
+b_crowd_shift2             NA             NA             NA             NA
+b_crowd_shift3             NA             NA             NA             NA
+b_disin                    NA             NA             NA             NA
+b_disin_shift              NA             NA             NA             NA
+b_disin_shift2             NA             NA             NA             NA
+b_disin_shift3             NA             NA             NA             NA
+b_share                    NA             NA             NA             NA
+b_share_shift              NA             NA             NA             NA
+b_share_shift2             NA             NA             NA             NA
+b_share_shift3             NA             NA             NA             NA
+b_pta                      NA             NA             NA             NA
+                 b_pta_shift2   b_pta_shift3          b_csa    b_csa_shift
+asc_pt                     NA             NA             NA             NA
+asc_cs                     NA             NA             NA             NA
+b_tt                       NA             NA             NA             NA
+b_tt_shift                 NA             NA             NA             NA
+b_tt_shift2                NA             NA             NA             NA
+b_tt_shift3                NA             NA             NA             NA
+b_cost                     NA             NA             NA             NA
+b_cost_shift               NA             NA             NA             NA
+b_cost_shift2              NA             NA             NA             NA
+b_cost_shift3              NA             NA             NA             NA
+b_trans                    NA             NA             NA             NA
+b_trans_shift              NA             NA             NA             NA
+b_trans_shift2             NA             NA             NA             NA
+b_trans_shift3             NA             NA             NA             NA
+b_crowd                    NA             NA             NA             NA
+b_crowd_shift              NA             NA             NA             NA
+b_crowd_shift2             NA             NA             NA             NA
+b_crowd_shift3             NA             NA             NA             NA
+b_disin                    NA             NA             NA             NA
+b_disin_shift              NA             NA             NA             NA
+b_disin_shift2             NA             NA             NA             NA
+b_disin_shift3             NA             NA             NA             NA
+b_share                    NA             NA             NA             NA
+b_share_shift              NA             NA             NA             NA
+b_share_shift2             NA             NA             NA             NA
+b_share_shift3             NA             NA             NA             NA
+b_pta                      NA             NA             NA             NA
+                 b_csa_shift2   b_csa_shift3        delta_b        delta_c
+asc_pt                     NA             NA             NA             NA
+asc_cs                     NA             NA             NA             NA
+b_tt                       NA             NA             NA             NA
+b_tt_shift                 NA             NA             NA             NA
+b_tt_shift2                NA             NA             NA             NA
+b_tt_shift3                NA             NA             NA             NA
+b_cost                     NA             NA             NA             NA
+b_cost_shift               NA             NA             NA             NA
+b_cost_shift2              NA             NA             NA             NA
+b_cost_shift3              NA             NA             NA             NA
+b_trans                    NA             NA             NA             NA
+b_trans_shift              NA             NA             NA             NA
+b_trans_shift2             NA             NA             NA             NA
+b_trans_shift3             NA             NA             NA             NA
+b_crowd                    NA             NA             NA             NA
+b_crowd_shift              NA             NA             NA             NA
+b_crowd_shift2             NA             NA             NA             NA
+b_crowd_shift3             NA             NA             NA             NA
+b_disin                    NA             NA             NA             NA
+b_disin_shift              NA             NA             NA             NA
+b_disin_shift2             NA             NA             NA             NA
+b_disin_shift3             NA             NA             NA             NA
+b_share                    NA             NA             NA             NA
+b_share_shift              NA             NA             NA             NA
+b_share_shift2             NA             NA             NA             NA
+b_share_shift3             NA             NA             NA             NA
+b_pta                      NA             NA             NA             NA
+                      delta_d
+asc_pt                     NA
+asc_cs                     NA
+b_tt                       NA
+b_tt_shift                 NA
+b_tt_shift2                NA
+b_tt_shift3                NA
+b_cost                     NA
+b_cost_shift               NA
+b_cost_shift2              NA
+b_cost_shift3              NA
+b_trans                    NA
+b_trans_shift              NA
+b_trans_shift2             NA
+b_trans_shift3             NA
+b_crowd                    NA
+b_crowd_shift              NA
+b_crowd_shift2             NA
+b_crowd_shift3             NA
+b_disin                    NA
+b_disin_shift              NA
+b_disin_shift2             NA
+b_disin_shift3             NA
+b_share                    NA
+b_share_shift              NA
+b_share_shift2             NA
+b_share_shift3             NA
+b_pta                      NA
+ [ reached getOption("max.print") -- omitted 10 rows ]
+
+Robust covariance matrix:
+                       asc_pt         asc_cs           b_tt     b_tt_shift
+asc_pt                     NA             NA             NA             NA
+asc_cs                     NA             NA             NA             NA
+b_tt                       NA             NA             NA             NA
+b_tt_shift                 NA             NA             NA             NA
+b_tt_shift2                NA             NA             NA             NA
+b_tt_shift3                NA             NA             NA             NA
+b_cost                     NA             NA             NA             NA
+b_cost_shift               NA             NA             NA             NA
+b_cost_shift2              NA             NA             NA             NA
+b_cost_shift3              NA             NA             NA             NA
+b_trans                    NA             NA             NA             NA
+b_trans_shift              NA             NA             NA             NA
+b_trans_shift2             NA             NA             NA             NA
+b_trans_shift3             NA             NA             NA             NA
+b_crowd                    NA             NA             NA             NA
+b_crowd_shift              NA             NA             NA             NA
+b_crowd_shift2             NA             NA             NA             NA
+b_crowd_shift3             NA             NA             NA             NA
+b_disin                    NA             NA             NA             NA
+b_disin_shift              NA             NA             NA             NA
+b_disin_shift2             NA             NA             NA             NA
+b_disin_shift3             NA             NA             NA             NA
+b_share                    NA             NA             NA             NA
+b_share_shift              NA             NA             NA             NA
+b_share_shift2             NA             NA             NA             NA
+b_share_shift3             NA             NA             NA             NA
+b_pta                      NA             NA             NA             NA
+                  b_tt_shift2    b_tt_shift3         b_cost   b_cost_shift
+asc_pt                     NA             NA             NA             NA
+asc_cs                     NA             NA             NA             NA
+b_tt                       NA             NA             NA             NA
+b_tt_shift                 NA             NA             NA             NA
+b_tt_shift2                NA             NA             NA             NA
+b_tt_shift3                NA             NA             NA             NA
+b_cost                     NA             NA             NA             NA
+b_cost_shift               NA             NA             NA             NA
+b_cost_shift2              NA             NA             NA             NA
+b_cost_shift3              NA             NA             NA             NA
+b_trans                    NA             NA             NA             NA
+b_trans_shift              NA             NA             NA             NA
+b_trans_shift2             NA             NA             NA             NA
+b_trans_shift3             NA             NA             NA             NA
+b_crowd                    NA             NA             NA             NA
+b_crowd_shift              NA             NA             NA             NA
+b_crowd_shift2             NA             NA             NA             NA
+b_crowd_shift3             NA             NA             NA             NA
+b_disin                    NA             NA             NA             NA
+b_disin_shift              NA             NA             NA             NA
+b_disin_shift2             NA             NA             NA             NA
+b_disin_shift3             NA             NA             NA             NA
+b_share                    NA             NA             NA             NA
+b_share_shift              NA             NA             NA             NA
+b_share_shift2             NA             NA             NA             NA
+b_share_shift3             NA             NA             NA             NA
+b_pta                      NA             NA             NA             NA
+                b_cost_shift2  b_cost_shift3        b_trans  b_trans_shift
+asc_pt                     NA             NA             NA             NA
+asc_cs                     NA             NA             NA             NA
+b_tt                       NA             NA             NA             NA
+b_tt_shift                 NA             NA             NA             NA
+b_tt_shift2                NA             NA             NA             NA
+b_tt_shift3                NA             NA             NA             NA
+b_cost                     NA             NA             NA             NA
+b_cost_shift               NA             NA             NA             NA
+b_cost_shift2              NA             NA             NA             NA
+b_cost_shift3              NA             NA             NA             NA
+b_trans                    NA             NA             NA             NA
+b_trans_shift              NA             NA             NA             NA
+b_trans_shift2             NA             NA             NA             NA
+b_trans_shift3             NA             NA             NA             NA
+b_crowd                    NA             NA             NA             NA
+b_crowd_shift              NA             NA             NA             NA
+b_crowd_shift2             NA             NA             NA             NA
+b_crowd_shift3             NA             NA             NA             NA
+b_disin                    NA             NA             NA             NA
+b_disin_shift              NA             NA             NA             NA
+b_disin_shift2             NA             NA             NA             NA
+b_disin_shift3             NA             NA             NA             NA
+b_share                    NA             NA             NA             NA
+b_share_shift              NA             NA             NA             NA
+b_share_shift2             NA             NA             NA             NA
+b_share_shift3             NA             NA             NA             NA
+b_pta                      NA             NA             NA             NA
+               b_trans_shift2 b_trans_shift3        b_crowd  b_crowd_shift
+asc_pt                     NA             NA             NA             NA
+asc_cs                     NA             NA             NA             NA
+b_tt                       NA             NA             NA             NA
+b_tt_shift                 NA             NA             NA             NA
+b_tt_shift2                NA             NA             NA             NA
+b_tt_shift3                NA             NA             NA             NA
+b_cost                     NA             NA             NA             NA
+b_cost_shift               NA             NA             NA             NA
+b_cost_shift2              NA             NA             NA             NA
+b_cost_shift3              NA             NA             NA             NA
+b_trans                    NA             NA             NA             NA
+b_trans_shift              NA             NA             NA             NA
+b_trans_shift2             NA             NA             NA             NA
+b_trans_shift3             NA             NA             NA             NA
+b_crowd                    NA             NA             NA             NA
+b_crowd_shift              NA             NA             NA             NA
+b_crowd_shift2             NA             NA             NA             NA
+b_crowd_shift3             NA             NA             NA             NA
+b_disin                    NA             NA             NA             NA
+b_disin_shift              NA             NA             NA             NA
+b_disin_shift2             NA             NA             NA             NA
+b_disin_shift3             NA             NA             NA             NA
+b_share                    NA             NA             NA             NA
+b_share_shift              NA             NA             NA             NA
+b_share_shift2             NA             NA             NA             NA
+b_share_shift3             NA             NA             NA             NA
+b_pta                      NA             NA             NA             NA
+               b_crowd_shift2 b_crowd_shift3        b_disin  b_disin_shift
+asc_pt                     NA             NA             NA             NA
+asc_cs                     NA             NA             NA             NA
+b_tt                       NA             NA             NA             NA
+b_tt_shift                 NA             NA             NA             NA
+b_tt_shift2                NA             NA             NA             NA
+b_tt_shift3                NA             NA             NA             NA
+b_cost                     NA             NA             NA             NA
+b_cost_shift               NA             NA             NA             NA
+b_cost_shift2              NA             NA             NA             NA
+b_cost_shift3              NA             NA             NA             NA
+b_trans                    NA             NA             NA             NA
+b_trans_shift              NA             NA             NA             NA
+b_trans_shift2             NA             NA             NA             NA
+b_trans_shift3             NA             NA             NA             NA
+b_crowd                    NA             NA             NA             NA
+b_crowd_shift              NA             NA             NA             NA
+b_crowd_shift2             NA             NA             NA             NA
+b_crowd_shift3             NA             NA             NA             NA
+b_disin                    NA             NA             NA             NA
+b_disin_shift              NA             NA             NA             NA
+b_disin_shift2             NA             NA             NA             NA
+b_disin_shift3             NA             NA             NA             NA
+b_share                    NA             NA             NA             NA
+b_share_shift              NA             NA             NA             NA
+b_share_shift2             NA             NA             NA             NA
+b_share_shift3             NA             NA             NA             NA
+b_pta                      NA             NA             NA             NA
+               b_disin_shift2 b_disin_shift3        b_share  b_share_shift
+asc_pt                     NA             NA             NA             NA
+asc_cs                     NA             NA             NA             NA
+b_tt                       NA             NA             NA             NA
+b_tt_shift                 NA             NA             NA             NA
+b_tt_shift2                NA             NA             NA             NA
+b_tt_shift3                NA             NA             NA             NA
+b_cost                     NA             NA             NA             NA
+b_cost_shift               NA             NA             NA             NA
+b_cost_shift2              NA             NA             NA             NA
+b_cost_shift3              NA             NA             NA             NA
+b_trans                    NA             NA             NA             NA
+b_trans_shift              NA             NA             NA             NA
+b_trans_shift2             NA             NA             NA             NA
+b_trans_shift3             NA             NA             NA             NA
+b_crowd                    NA             NA             NA             NA
+b_crowd_shift              NA             NA             NA             NA
+b_crowd_shift2             NA             NA             NA             NA
+b_crowd_shift3             NA             NA             NA             NA
+b_disin                    NA             NA             NA             NA
+b_disin_shift              NA             NA             NA             NA
+b_disin_shift2             NA             NA             NA             NA
+b_disin_shift3             NA             NA             NA             NA
+b_share                    NA             NA             NA             NA
+b_share_shift              NA             NA             NA             NA
+b_share_shift2             NA             NA             NA             NA
+b_share_shift3             NA             NA             NA             NA
+b_pta                      NA             NA             NA             NA
+               b_share_shift2 b_share_shift3          b_pta    b_pta_shift
+asc_pt                     NA             NA             NA             NA
+asc_cs                     NA             NA             NA             NA
+b_tt                       NA             NA             NA             NA
+b_tt_shift                 NA             NA             NA             NA
+b_tt_shift2                NA             NA             NA             NA
+b_tt_shift3                NA             NA             NA             NA
+b_cost                     NA             NA             NA             NA
+b_cost_shift               NA             NA             NA             NA
+b_cost_shift2              NA             NA             NA             NA
+b_cost_shift3              NA             NA             NA             NA
+b_trans                    NA             NA             NA             NA
+b_trans_shift              NA             NA             NA             NA
+b_trans_shift2             NA             NA             NA             NA
+b_trans_shift3             NA             NA             NA             NA
+b_crowd                    NA             NA             NA             NA
+b_crowd_shift              NA             NA             NA             NA
+b_crowd_shift2             NA             NA             NA             NA
+b_crowd_shift3             NA             NA             NA             NA
+b_disin                    NA             NA             NA             NA
+b_disin_shift              NA             NA             NA             NA
+b_disin_shift2             NA             NA             NA             NA
+b_disin_shift3             NA             NA             NA             NA
+b_share                    NA             NA             NA             NA
+b_share_shift              NA             NA             NA             NA
+b_share_shift2             NA             NA             NA             NA
+b_share_shift3             NA             NA             NA             NA
+b_pta                      NA             NA             NA             NA
+                 b_pta_shift2   b_pta_shift3          b_csa    b_csa_shift
+asc_pt                     NA             NA             NA             NA
+asc_cs                     NA             NA             NA             NA
+b_tt                       NA             NA             NA             NA
+b_tt_shift                 NA             NA             NA             NA
+b_tt_shift2                NA             NA             NA             NA
+b_tt_shift3                NA             NA             NA             NA
+b_cost                     NA             NA             NA             NA
+b_cost_shift               NA             NA             NA             NA
+b_cost_shift2              NA             NA             NA             NA
+b_cost_shift3              NA             NA             NA             NA
+b_trans                    NA             NA             NA             NA
+b_trans_shift              NA             NA             NA             NA
+b_trans_shift2             NA             NA             NA             NA
+b_trans_shift3             NA             NA             NA             NA
+b_crowd                    NA             NA             NA             NA
+b_crowd_shift              NA             NA             NA             NA
+b_crowd_shift2             NA             NA             NA             NA
+b_crowd_shift3             NA             NA             NA             NA
+b_disin                    NA             NA             NA             NA
+b_disin_shift              NA             NA             NA             NA
+b_disin_shift2             NA             NA             NA             NA
+b_disin_shift3             NA             NA             NA             NA
+b_share                    NA             NA             NA             NA
+b_share_shift              NA             NA             NA             NA
+b_share_shift2             NA             NA             NA             NA
+b_share_shift3             NA             NA             NA             NA
+b_pta                      NA             NA             NA             NA
+                 b_csa_shift2   b_csa_shift3        delta_b        delta_c
+asc_pt                     NA             NA             NA             NA
+asc_cs                     NA             NA             NA             NA
+b_tt                       NA             NA             NA             NA
+b_tt_shift                 NA             NA             NA             NA
+b_tt_shift2                NA             NA             NA             NA
+b_tt_shift3                NA             NA             NA             NA
+b_cost                     NA             NA             NA             NA
+b_cost_shift               NA             NA             NA             NA
+b_cost_shift2              NA             NA             NA             NA
+b_cost_shift3              NA             NA             NA             NA
+b_trans                    NA             NA             NA             NA
+b_trans_shift              NA             NA             NA             NA
+b_trans_shift2             NA             NA             NA             NA
+b_trans_shift3             NA             NA             NA             NA
+b_crowd                    NA             NA             NA             NA
+b_crowd_shift              NA             NA             NA             NA
+b_crowd_shift2             NA             NA             NA             NA
+b_crowd_shift3             NA             NA             NA             NA
+b_disin                    NA             NA             NA             NA
+b_disin_shift              NA             NA             NA             NA
+b_disin_shift2             NA             NA             NA             NA
+b_disin_shift3             NA             NA             NA             NA
+b_share                    NA             NA             NA             NA
+b_share_shift              NA             NA             NA             NA
+b_share_shift2             NA             NA             NA             NA
+b_share_shift3             NA             NA             NA             NA
+b_pta                      NA             NA             NA             NA
+                      delta_d
+asc_pt                     NA
+asc_cs                     NA
+b_tt                       NA
+b_tt_shift                 NA
+b_tt_shift2                NA
+b_tt_shift3                NA
+b_cost                     NA
+b_cost_shift               NA
+b_cost_shift2              NA
+b_cost_shift3              NA
+b_trans                    NA
+b_trans_shift              NA
+b_trans_shift2             NA
+b_trans_shift3             NA
+b_crowd                    NA
+b_crowd_shift              NA
+b_crowd_shift2             NA
+b_crowd_shift3             NA
+b_disin                    NA
+b_disin_shift              NA
+b_disin_shift2             NA
+b_disin_shift3             NA
+b_share                    NA
+b_share_shift              NA
+b_share_shift2             NA
+b_share_shift3             NA
+b_pta                      NA
+ [ reached getOption("max.print") -- omitted 10 rows ]
+
+Classical correlation matrix:
+                       asc_pt         asc_cs           b_tt     b_tt_shift
+asc_pt                     NA             NA             NA             NA
+asc_cs                     NA             NA             NA             NA
+b_tt                       NA             NA             NA             NA
+b_tt_shift                 NA             NA             NA             NA
+b_tt_shift2                NA             NA             NA             NA
+b_tt_shift3                NA             NA             NA             NA
+b_cost                     NA             NA             NA             NA
+b_cost_shift               NA             NA             NA             NA
+b_cost_shift2              NA             NA             NA             NA
+b_cost_shift3              NA             NA             NA             NA
+b_trans                    NA             NA             NA             NA
+b_trans_shift              NA             NA             NA             NA
+b_trans_shift2             NA             NA             NA             NA
+b_trans_shift3             NA             NA             NA             NA
+b_crowd                    NA             NA             NA             NA
+b_crowd_shift              NA             NA             NA             NA
+b_crowd_shift2             NA             NA             NA             NA
+b_crowd_shift3             NA             NA             NA             NA
+b_disin                    NA             NA             NA             NA
+b_disin_shift              NA             NA             NA             NA
+b_disin_shift2             NA             NA             NA             NA
+b_disin_shift3             NA             NA             NA             NA
+b_share                    NA             NA             NA             NA
+b_share_shift              NA             NA             NA             NA
+b_share_shift2             NA             NA             NA             NA
+b_share_shift3             NA             NA             NA             NA
+b_pta                      NA             NA             NA             NA
+                  b_tt_shift2    b_tt_shift3         b_cost   b_cost_shift
+asc_pt                     NA             NA             NA             NA
+asc_cs                     NA             NA             NA             NA
+b_tt                       NA             NA             NA             NA
+b_tt_shift                 NA             NA             NA             NA
+b_tt_shift2                NA             NA             NA             NA
+b_tt_shift3                NA             NA             NA             NA
+b_cost                     NA             NA             NA             NA
+b_cost_shift               NA             NA             NA             NA
+b_cost_shift2              NA             NA             NA             NA
+b_cost_shift3              NA             NA             NA             NA
+b_trans                    NA             NA             NA             NA
+b_trans_shift              NA             NA             NA             NA
+b_trans_shift2             NA             NA             NA             NA
+b_trans_shift3             NA             NA             NA             NA
+b_crowd                    NA             NA             NA             NA
+b_crowd_shift              NA             NA             NA             NA
+b_crowd_shift2             NA             NA             NA             NA
+b_crowd_shift3             NA             NA             NA             NA
+b_disin                    NA             NA             NA             NA
+b_disin_shift              NA             NA             NA             NA
+b_disin_shift2             NA             NA             NA             NA
+b_disin_shift3             NA             NA             NA             NA
+b_share                    NA             NA             NA             NA
+b_share_shift              NA             NA             NA             NA
+b_share_shift2             NA             NA             NA             NA
+b_share_shift3             NA             NA             NA             NA
+b_pta                      NA             NA             NA             NA
+                b_cost_shift2  b_cost_shift3        b_trans  b_trans_shift
+asc_pt                     NA             NA             NA             NA
+asc_cs                     NA             NA             NA             NA
+b_tt                       NA             NA             NA             NA
+b_tt_shift                 NA             NA             NA             NA
+b_tt_shift2                NA             NA             NA             NA
+b_tt_shift3                NA             NA             NA             NA
+b_cost                     NA             NA             NA             NA
+b_cost_shift               NA             NA             NA             NA
+b_cost_shift2              NA             NA             NA             NA
+b_cost_shift3              NA             NA             NA             NA
+b_trans                    NA             NA             NA             NA
+b_trans_shift              NA             NA             NA             NA
+b_trans_shift2             NA             NA             NA             NA
+b_trans_shift3             NA             NA             NA             NA
+b_crowd                    NA             NA             NA             NA
+b_crowd_shift              NA             NA             NA             NA
+b_crowd_shift2             NA             NA             NA             NA
+b_crowd_shift3             NA             NA             NA             NA
+b_disin                    NA             NA             NA             NA
+b_disin_shift              NA             NA             NA             NA
+b_disin_shift2             NA             NA             NA             NA
+b_disin_shift3             NA             NA             NA             NA
+b_share                    NA             NA             NA             NA
+b_share_shift              NA             NA             NA             NA
+b_share_shift2             NA             NA             NA             NA
+b_share_shift3             NA             NA             NA             NA
+b_pta                      NA             NA             NA             NA
+               b_trans_shift2 b_trans_shift3        b_crowd  b_crowd_shift
+asc_pt                     NA             NA             NA             NA
+asc_cs                     NA             NA             NA             NA
+b_tt                       NA             NA             NA             NA
+b_tt_shift                 NA             NA             NA             NA
+b_tt_shift2                NA             NA             NA             NA
+b_tt_shift3                NA             NA             NA             NA
+b_cost                     NA             NA             NA             NA
+b_cost_shift               NA             NA             NA             NA
+b_cost_shift2              NA             NA             NA             NA
+b_cost_shift3              NA             NA             NA             NA
+b_trans                    NA             NA             NA             NA
+b_trans_shift              NA             NA             NA             NA
+b_trans_shift2             NA             NA             NA             NA
+b_trans_shift3             NA             NA             NA             NA
+b_crowd                    NA             NA             NA             NA
+b_crowd_shift              NA             NA             NA             NA
+b_crowd_shift2             NA             NA             NA             NA
+b_crowd_shift3             NA             NA             NA             NA
+b_disin                    NA             NA             NA             NA
+b_disin_shift              NA             NA             NA             NA
+b_disin_shift2             NA             NA             NA             NA
+b_disin_shift3             NA             NA             NA             NA
+b_share                    NA             NA             NA             NA
+b_share_shift              NA             NA             NA             NA
+b_share_shift2             NA             NA             NA             NA
+b_share_shift3             NA             NA             NA             NA
+b_pta                      NA             NA             NA             NA
+               b_crowd_shift2 b_crowd_shift3        b_disin  b_disin_shift
+asc_pt                     NA             NA             NA             NA
+asc_cs                     NA             NA             NA             NA
+b_tt                       NA             NA             NA             NA
+b_tt_shift                 NA             NA             NA             NA
+b_tt_shift2                NA             NA             NA             NA
+b_tt_shift3                NA             NA             NA             NA
+b_cost                     NA             NA             NA             NA
+b_cost_shift               NA             NA             NA             NA
+b_cost_shift2              NA             NA             NA             NA
+b_cost_shift3              NA             NA             NA             NA
+b_trans                    NA             NA             NA             NA
+b_trans_shift              NA             NA             NA             NA
+b_trans_shift2             NA             NA             NA             NA
+b_trans_shift3             NA             NA             NA             NA
+b_crowd                    NA             NA             NA             NA
+b_crowd_shift              NA             NA             NA             NA
+b_crowd_shift2             NA             NA             NA             NA
+b_crowd_shift3             NA             NA             NA             NA
+b_disin                    NA             NA             NA             NA
+b_disin_shift              NA             NA             NA             NA
+b_disin_shift2             NA             NA             NA             NA
+b_disin_shift3             NA             NA             NA             NA
+b_share                    NA             NA             NA             NA
+b_share_shift              NA             NA             NA             NA
+b_share_shift2             NA             NA             NA             NA
+b_share_shift3             NA             NA             NA             NA
+b_pta                      NA             NA             NA             NA
+               b_disin_shift2 b_disin_shift3        b_share  b_share_shift
+asc_pt                     NA             NA             NA             NA
+asc_cs                     NA             NA             NA             NA
+b_tt                       NA             NA             NA             NA
+b_tt_shift                 NA             NA             NA             NA
+b_tt_shift2                NA             NA             NA             NA
+b_tt_shift3                NA             NA             NA             NA
+b_cost                     NA             NA             NA             NA
+b_cost_shift               NA             NA             NA             NA
+b_cost_shift2              NA             NA             NA             NA
+b_cost_shift3              NA             NA             NA             NA
+b_trans                    NA             NA             NA             NA
+b_trans_shift              NA             NA             NA             NA
+b_trans_shift2             NA             NA             NA             NA
+b_trans_shift3             NA             NA             NA             NA
+b_crowd                    NA             NA             NA             NA
+b_crowd_shift              NA             NA             NA             NA
+b_crowd_shift2             NA             NA             NA             NA
+b_crowd_shift3             NA             NA             NA             NA
+b_disin                    NA             NA             NA             NA
+b_disin_shift              NA             NA             NA             NA
+b_disin_shift2             NA             NA             NA             NA
+b_disin_shift3             NA             NA             NA             NA
+b_share                    NA             NA             NA             NA
+b_share_shift              NA             NA             NA             NA
+b_share_shift2             NA             NA             NA             NA
+b_share_shift3             NA             NA             NA             NA
+b_pta                      NA             NA             NA             NA
+               b_share_shift2 b_share_shift3          b_pta    b_pta_shift
+asc_pt                     NA             NA             NA             NA
+asc_cs                     NA             NA             NA             NA
+b_tt                       NA             NA             NA             NA
+b_tt_shift                 NA             NA             NA             NA
+b_tt_shift2                NA             NA             NA             NA
+b_tt_shift3                NA             NA             NA             NA
+b_cost                     NA             NA             NA             NA
+b_cost_shift               NA             NA             NA             NA
+b_cost_shift2              NA             NA             NA             NA
+b_cost_shift3              NA             NA             NA             NA
+b_trans                    NA             NA             NA             NA
+b_trans_shift              NA             NA             NA             NA
+b_trans_shift2             NA             NA             NA             NA
+b_trans_shift3             NA             NA             NA             NA
+b_crowd                    NA             NA             NA             NA
+b_crowd_shift              NA             NA             NA             NA
+b_crowd_shift2             NA             NA             NA             NA
+b_crowd_shift3             NA             NA             NA             NA
+b_disin                    NA             NA             NA             NA
+b_disin_shift              NA             NA             NA             NA
+b_disin_shift2             NA             NA             NA             NA
+b_disin_shift3             NA             NA             NA             NA
+b_share                    NA             NA             NA             NA
+b_share_shift              NA             NA             NA             NA
+b_share_shift2             NA             NA             NA             NA
+b_share_shift3             NA             NA             NA             NA
+b_pta                      NA             NA             NA             NA
+                 b_pta_shift2   b_pta_shift3          b_csa    b_csa_shift
+asc_pt                     NA             NA             NA             NA
+asc_cs                     NA             NA             NA             NA
+b_tt                       NA             NA             NA             NA
+b_tt_shift                 NA             NA             NA             NA
+b_tt_shift2                NA             NA             NA             NA
+b_tt_shift3                NA             NA             NA             NA
+b_cost                     NA             NA             NA             NA
+b_cost_shift               NA             NA             NA             NA
+b_cost_shift2              NA             NA             NA             NA
+b_cost_shift3              NA             NA             NA             NA
+b_trans                    NA             NA             NA             NA
+b_trans_shift              NA             NA             NA             NA
+b_trans_shift2             NA             NA             NA             NA
+b_trans_shift3             NA             NA             NA             NA
+b_crowd                    NA             NA             NA             NA
+b_crowd_shift              NA             NA             NA             NA
+b_crowd_shift2             NA             NA             NA             NA
+b_crowd_shift3             NA             NA             NA             NA
+b_disin                    NA             NA             NA             NA
+b_disin_shift              NA             NA             NA             NA
+b_disin_shift2             NA             NA             NA             NA
+b_disin_shift3             NA             NA             NA             NA
+b_share                    NA             NA             NA             NA
+b_share_shift              NA             NA             NA             NA
+b_share_shift2             NA             NA             NA             NA
+b_share_shift3             NA             NA             NA             NA
+b_pta                      NA             NA             NA             NA
+                 b_csa_shift2   b_csa_shift3        delta_b        delta_c
+asc_pt                     NA             NA             NA             NA
+asc_cs                     NA             NA             NA             NA
+b_tt                       NA             NA             NA             NA
+b_tt_shift                 NA             NA             NA             NA
+b_tt_shift2                NA             NA             NA             NA
+b_tt_shift3                NA             NA             NA             NA
+b_cost                     NA             NA             NA             NA
+b_cost_shift               NA             NA             NA             NA
+b_cost_shift2              NA             NA             NA             NA
+b_cost_shift3              NA             NA             NA             NA
+b_trans                    NA             NA             NA             NA
+b_trans_shift              NA             NA             NA             NA
+b_trans_shift2             NA             NA             NA             NA
+b_trans_shift3             NA             NA             NA             NA
+b_crowd                    NA             NA             NA             NA
+b_crowd_shift              NA             NA             NA             NA
+b_crowd_shift2             NA             NA             NA             NA
+b_crowd_shift3             NA             NA             NA             NA
+b_disin                    NA             NA             NA             NA
+b_disin_shift              NA             NA             NA             NA
+b_disin_shift2             NA             NA             NA             NA
+b_disin_shift3             NA             NA             NA             NA
+b_share                    NA             NA             NA             NA
+b_share_shift              NA             NA             NA             NA
+b_share_shift2             NA             NA             NA             NA
+b_share_shift3             NA             NA             NA             NA
+b_pta                      NA             NA             NA             NA
+                      delta_d
+asc_pt                     NA
+asc_cs                     NA
+b_tt                       NA
+b_tt_shift                 NA
+b_tt_shift2                NA
+b_tt_shift3                NA
+b_cost                     NA
+b_cost_shift               NA
+b_cost_shift2              NA
+b_cost_shift3              NA
+b_trans                    NA
+b_trans_shift              NA
+b_trans_shift2             NA
+b_trans_shift3             NA
+b_crowd                    NA
+b_crowd_shift              NA
+b_crowd_shift2             NA
+b_crowd_shift3             NA
+b_disin                    NA
+b_disin_shift              NA
+b_disin_shift2             NA
+b_disin_shift3             NA
+b_share                    NA
+b_share_shift              NA
+b_share_shift2             NA
+b_share_shift3             NA
+b_pta                      NA
+ [ reached getOption("max.print") -- omitted 10 rows ]
+
+Robust correlation matrix:
+                       asc_pt         asc_cs           b_tt     b_tt_shift
+asc_pt                     NA             NA             NA             NA
+asc_cs                     NA             NA             NA             NA
+b_tt                       NA             NA             NA             NA
+b_tt_shift                 NA             NA             NA             NA
+b_tt_shift2                NA             NA             NA             NA
+b_tt_shift3                NA             NA             NA             NA
+b_cost                     NA             NA             NA             NA
+b_cost_shift               NA             NA             NA             NA
+b_cost_shift2              NA             NA             NA             NA
+b_cost_shift3              NA             NA             NA             NA
+b_trans                    NA             NA             NA             NA
+b_trans_shift              NA             NA             NA             NA
+b_trans_shift2             NA             NA             NA             NA
+b_trans_shift3             NA             NA             NA             NA
+b_crowd                    NA             NA             NA             NA
+b_crowd_shift              NA             NA             NA             NA
+b_crowd_shift2             NA             NA             NA             NA
+b_crowd_shift3             NA             NA             NA             NA
+b_disin                    NA             NA             NA             NA
+b_disin_shift              NA             NA             NA             NA
+b_disin_shift2             NA             NA             NA             NA
+b_disin_shift3             NA             NA             NA             NA
+b_share                    NA             NA             NA             NA
+b_share_shift              NA             NA             NA             NA
+b_share_shift2             NA             NA             NA             NA
+b_share_shift3             NA             NA             NA             NA
+b_pta                      NA             NA             NA             NA
+                  b_tt_shift2    b_tt_shift3         b_cost   b_cost_shift
+asc_pt                     NA             NA             NA             NA
+asc_cs                     NA             NA             NA             NA
+b_tt                       NA             NA             NA             NA
+b_tt_shift                 NA             NA             NA             NA
+b_tt_shift2                NA             NA             NA             NA
+b_tt_shift3                NA             NA             NA             NA
+b_cost                     NA             NA             NA             NA
+b_cost_shift               NA             NA             NA             NA
+b_cost_shift2              NA             NA             NA             NA
+b_cost_shift3              NA             NA             NA             NA
+b_trans                    NA             NA             NA             NA
+b_trans_shift              NA             NA             NA             NA
+b_trans_shift2             NA             NA             NA             NA
+b_trans_shift3             NA             NA             NA             NA
+b_crowd                    NA             NA             NA             NA
+b_crowd_shift              NA             NA             NA             NA
+b_crowd_shift2             NA             NA             NA             NA
+b_crowd_shift3             NA             NA             NA             NA
+b_disin                    NA             NA             NA             NA
+b_disin_shift              NA             NA             NA             NA
+b_disin_shift2             NA             NA             NA             NA
+b_disin_shift3             NA             NA             NA             NA
+b_share                    NA             NA             NA             NA
+b_share_shift              NA             NA             NA             NA
+b_share_shift2             NA             NA             NA             NA
+b_share_shift3             NA             NA             NA             NA
+b_pta                      NA             NA             NA             NA
+                b_cost_shift2  b_cost_shift3        b_trans  b_trans_shift
+asc_pt                     NA             NA             NA             NA
+asc_cs                     NA             NA             NA             NA
+b_tt                       NA             NA             NA             NA
+b_tt_shift                 NA             NA             NA             NA
+b_tt_shift2                NA             NA             NA             NA
+b_tt_shift3                NA             NA             NA             NA
+b_cost                     NA             NA             NA             NA
+b_cost_shift               NA             NA             NA             NA
+b_cost_shift2              NA             NA             NA             NA
+b_cost_shift3              NA             NA             NA             NA
+b_trans                    NA             NA             NA             NA
+b_trans_shift              NA             NA             NA             NA
+b_trans_shift2             NA             NA             NA             NA
+b_trans_shift3             NA             NA             NA             NA
+b_crowd                    NA             NA             NA             NA
+b_crowd_shift              NA             NA             NA             NA
+b_crowd_shift2             NA             NA             NA             NA
+b_crowd_shift3             NA             NA             NA             NA
+b_disin                    NA             NA             NA             NA
+b_disin_shift              NA             NA             NA             NA
+b_disin_shift2             NA             NA             NA             NA
+b_disin_shift3             NA             NA             NA             NA
+b_share                    NA             NA             NA             NA
+b_share_shift              NA             NA             NA             NA
+b_share_shift2             NA             NA             NA             NA
+b_share_shift3             NA             NA             NA             NA
+b_pta                      NA             NA             NA             NA
+               b_trans_shift2 b_trans_shift3        b_crowd  b_crowd_shift
+asc_pt                     NA             NA             NA             NA
+asc_cs                     NA             NA             NA             NA
+b_tt                       NA             NA             NA             NA
+b_tt_shift                 NA             NA             NA             NA
+b_tt_shift2                NA             NA             NA             NA
+b_tt_shift3                NA             NA             NA             NA
+b_cost                     NA             NA             NA             NA
+b_cost_shift               NA             NA             NA             NA
+b_cost_shift2              NA             NA             NA             NA
+b_cost_shift3              NA             NA             NA             NA
+b_trans                    NA             NA             NA             NA
+b_trans_shift              NA             NA             NA             NA
+b_trans_shift2             NA             NA             NA             NA
+b_trans_shift3             NA             NA             NA             NA
+b_crowd                    NA             NA             NA             NA
+b_crowd_shift              NA             NA             NA             NA
+b_crowd_shift2             NA             NA             NA             NA
+b_crowd_shift3             NA             NA             NA             NA
+b_disin                    NA             NA             NA             NA
+b_disin_shift              NA             NA             NA             NA
+b_disin_shift2             NA             NA             NA             NA
+b_disin_shift3             NA             NA             NA             NA
+b_share                    NA             NA             NA             NA
+b_share_shift              NA             NA             NA             NA
+b_share_shift2             NA             NA             NA             NA
+b_share_shift3             NA             NA             NA             NA
+b_pta                      NA             NA             NA             NA
+               b_crowd_shift2 b_crowd_shift3        b_disin  b_disin_shift
+asc_pt                     NA             NA             NA             NA
+asc_cs                     NA             NA             NA             NA
+b_tt                       NA             NA             NA             NA
+b_tt_shift                 NA             NA             NA             NA
+b_tt_shift2                NA             NA             NA             NA
+b_tt_shift3                NA             NA             NA             NA
+b_cost                     NA             NA             NA             NA
+b_cost_shift               NA             NA             NA             NA
+b_cost_shift2              NA             NA             NA             NA
+b_cost_shift3              NA             NA             NA             NA
+b_trans                    NA             NA             NA             NA
+b_trans_shift              NA             NA             NA             NA
+b_trans_shift2             NA             NA             NA             NA
+b_trans_shift3             NA             NA             NA             NA
+b_crowd                    NA             NA             NA             NA
+b_crowd_shift              NA             NA             NA             NA
+b_crowd_shift2             NA             NA             NA             NA
+b_crowd_shift3             NA             NA             NA             NA
+b_disin                    NA             NA             NA             NA
+b_disin_shift              NA             NA             NA             NA
+b_disin_shift2             NA             NA             NA             NA
+b_disin_shift3             NA             NA             NA             NA
+b_share                    NA             NA             NA             NA
+b_share_shift              NA             NA             NA             NA
+b_share_shift2             NA             NA             NA             NA
+b_share_shift3             NA             NA             NA             NA
+b_pta                      NA             NA             NA             NA
+               b_disin_shift2 b_disin_shift3        b_share  b_share_shift
+asc_pt                     NA             NA             NA             NA
+asc_cs                     NA             NA             NA             NA
+b_tt                       NA             NA             NA             NA
+b_tt_shift                 NA             NA             NA             NA
+b_tt_shift2                NA             NA             NA             NA
+b_tt_shift3                NA             NA             NA             NA
+b_cost                     NA             NA             NA             NA
+b_cost_shift               NA             NA             NA             NA
+b_cost_shift2              NA             NA             NA             NA
+b_cost_shift3              NA             NA             NA             NA
+b_trans                    NA             NA             NA             NA
+b_trans_shift              NA             NA             NA             NA
+b_trans_shift2             NA             NA             NA             NA
+b_trans_shift3             NA             NA             NA             NA
+b_crowd                    NA             NA             NA             NA
+b_crowd_shift              NA             NA             NA             NA
+b_crowd_shift2             NA             NA             NA             NA
+b_crowd_shift3             NA             NA             NA             NA
+b_disin                    NA             NA             NA             NA
+b_disin_shift              NA             NA             NA             NA
+b_disin_shift2             NA             NA             NA             NA
+b_disin_shift3             NA             NA             NA             NA
+b_share                    NA             NA             NA             NA
+b_share_shift              NA             NA             NA             NA
+b_share_shift2             NA             NA             NA             NA
+b_share_shift3             NA             NA             NA             NA
+b_pta                      NA             NA             NA             NA
+               b_share_shift2 b_share_shift3          b_pta    b_pta_shift
+asc_pt                     NA             NA             NA             NA
+asc_cs                     NA             NA             NA             NA
+b_tt                       NA             NA             NA             NA
+b_tt_shift                 NA             NA             NA             NA
+b_tt_shift2                NA             NA             NA             NA
+b_tt_shift3                NA             NA             NA             NA
+b_cost                     NA             NA             NA             NA
+b_cost_shift               NA             NA             NA             NA
+b_cost_shift2              NA             NA             NA             NA
+b_cost_shift3              NA             NA             NA             NA
+b_trans                    NA             NA             NA             NA
+b_trans_shift              NA             NA             NA             NA
+b_trans_shift2             NA             NA             NA             NA
+b_trans_shift3             NA             NA             NA             NA
+b_crowd                    NA             NA             NA             NA
+b_crowd_shift              NA             NA             NA             NA
+b_crowd_shift2             NA             NA             NA             NA
+b_crowd_shift3             NA             NA             NA             NA
+b_disin                    NA             NA             NA             NA
+b_disin_shift              NA             NA             NA             NA
+b_disin_shift2             NA             NA             NA             NA
+b_disin_shift3             NA             NA             NA             NA
+b_share                    NA             NA             NA             NA
+b_share_shift              NA             NA             NA             NA
+b_share_shift2             NA             NA             NA             NA
+b_share_shift3             NA             NA             NA             NA
+b_pta                      NA             NA             NA             NA
+                 b_pta_shift2   b_pta_shift3          b_csa    b_csa_shift
+asc_pt                     NA             NA             NA             NA
+asc_cs                     NA             NA             NA             NA
+b_tt                       NA             NA             NA             NA
+b_tt_shift                 NA             NA             NA             NA
+b_tt_shift2                NA             NA             NA             NA
+b_tt_shift3                NA             NA             NA             NA
+b_cost                     NA             NA             NA             NA
+b_cost_shift               NA             NA             NA             NA
+b_cost_shift2              NA             NA             NA             NA
+b_cost_shift3              NA             NA             NA             NA
+b_trans                    NA             NA             NA             NA
+b_trans_shift              NA             NA             NA             NA
+b_trans_shift2             NA             NA             NA             NA
+b_trans_shift3             NA             NA             NA             NA
+b_crowd                    NA             NA             NA             NA
+b_crowd_shift              NA             NA             NA             NA
+b_crowd_shift2             NA             NA             NA             NA
+b_crowd_shift3             NA             NA             NA             NA
+b_disin                    NA             NA             NA             NA
+b_disin_shift              NA             NA             NA             NA
+b_disin_shift2             NA             NA             NA             NA
+b_disin_shift3             NA             NA             NA             NA
+b_share                    NA             NA             NA             NA
+b_share_shift              NA             NA             NA             NA
+b_share_shift2             NA             NA             NA             NA
+b_share_shift3             NA             NA             NA             NA
+b_pta                      NA             NA             NA             NA
+                 b_csa_shift2   b_csa_shift3        delta_b        delta_c
+asc_pt                     NA             NA             NA             NA
+asc_cs                     NA             NA             NA             NA
+b_tt                       NA             NA             NA             NA
+b_tt_shift                 NA             NA             NA             NA
+b_tt_shift2                NA             NA             NA             NA
+b_tt_shift3                NA             NA             NA             NA
+b_cost                     NA             NA             NA             NA
+b_cost_shift               NA             NA             NA             NA
+b_cost_shift2              NA             NA             NA             NA
+b_cost_shift3              NA             NA             NA             NA
+b_trans                    NA             NA             NA             NA
+b_trans_shift              NA             NA             NA             NA
+b_trans_shift2             NA             NA             NA             NA
+b_trans_shift3             NA             NA             NA             NA
+b_crowd                    NA             NA             NA             NA
+b_crowd_shift              NA             NA             NA             NA
+b_crowd_shift2             NA             NA             NA             NA
+b_crowd_shift3             NA             NA             NA             NA
+b_disin                    NA             NA             NA             NA
+b_disin_shift              NA             NA             NA             NA
+b_disin_shift2             NA             NA             NA             NA
+b_disin_shift3             NA             NA             NA             NA
+b_share                    NA             NA             NA             NA
+b_share_shift              NA             NA             NA             NA
+b_share_shift2             NA             NA             NA             NA
+b_share_shift3             NA             NA             NA             NA
+b_pta                      NA             NA             NA             NA
+                      delta_d
+asc_pt                     NA
+asc_cs                     NA
+b_tt                       NA
+b_tt_shift                 NA
+b_tt_shift2                NA
+b_tt_shift3                NA
+b_cost                     NA
+b_cost_shift               NA
+b_cost_shift2              NA
+b_cost_shift3              NA
+b_trans                    NA
+b_trans_shift              NA
+b_trans_shift2             NA
+b_trans_shift3             NA
+b_crowd                    NA
+b_crowd_shift              NA
+b_crowd_shift2             NA
+b_crowd_shift3             NA
+b_disin                    NA
+b_disin_shift              NA
+b_disin_shift2             NA
+b_disin_shift3             NA
+b_share                    NA
+b_share_shift              NA
+b_share_shift2             NA
+b_share_shift3             NA
+b_pta                      NA
+ [ reached getOption("max.print") -- omitted 10 rows ]
+
+ 20 worst outliers in terms of lowest average per choice prediction:
+  ID Avg prob per choice
+ 162           0.1854281
+ 102           0.2179890
+  60           0.2368118
+  23           0.2394614
+  59           0.2450173
+ 170           0.2452443
+ 136           0.2513104
+   1           0.2551768
+  21           0.2636111
+ 158           0.2656202
+  20           0.2672052
+ 166           0.2700001
+ 107           0.2762778
+ 108           0.2768346
+  55           0.2818645
+ 182           0.2828789
+ 199           0.2833160
+ 155           0.2841602
+ 119           0.2847681
+ 186           0.2901261
+
+Changes in parameter estimates from starting values:
+                   Initial    Estimate  Difference
+asc_pt             3.45696     3.72351     0.26655
+asc_cs             0.62842     1.27150     0.64308
+asc_rs             0.00000     0.00000     0.00000
+b_tt              -3.43411    -0.06661     3.36749
+b_tt_shift        -0.84244 -3.3957e-04     0.84210
+b_tt_shift2       -2.51286    -4.15995    -1.64708
+b_tt_shift3        0.00000    -3.44924    -3.44924
+b_cost           -25.62500   -36.10969   -10.48469
+b_cost_shift      -4.75849    -4.10350     0.65499
+b_cost_shift2     -6.81243    -9.52489    -2.71246
+b_cost_shift3      0.00000    -5.61872    -5.61872
+b_trans           -1.14560    -1.19935    -0.05374
+b_trans_shift     -1.24725    -1.80626    -0.55902
+b_trans_shift2    -0.71337     4.19585     4.90922
+b_trans_shift3     0.00000     0.68137     0.68137
+b_crowd            0.87017   130.95861   130.08845
+b_crowd_shift     -0.03691    -1.17853    -1.14162
+b_crowd_shift2    -7.94498   -27.72244   -19.77746
+b_crowd_shift3     0.00000    -1.68864    -1.68864
+b_disin           -0.22896     0.10358     0.33255
+b_disin_shift     -0.07382     0.88166     0.95548
+b_disin_shift2     0.11971     0.25751     0.13780
+b_disin_shift3     0.00000    -0.44494    -0.44494
+b_share          -17.63328 -9301.04427 -9283.41100
+b_share_shift      0.76424   1.435e+04   1.435e+04
+b_share_shift2     0.93225     0.65269    -0.27956
+b_share_shift3     0.00000    -1.04643    -1.04643
+b_pta              3.11116    37.59730    34.48614
+b_pta_shift       -0.96894    -1.03931    -0.07037
+b_pta_shift2      -0.11148     0.41553     0.52701
+b_pta_shift3       0.00000    -0.79529    -0.79529
+b_csa              2.89326    37.42968    34.53642
+b_csa_shift       -0.17515    -0.83188    -0.65673
+b_csa_shift2      -0.13492    -0.36012    -0.22520
+b_csa_shift3       0.00000    -0.05665    -0.05665
+b_rsa              0.00000     0.00000     0.00000
+b_rsa_shift        0.00000     0.00000     0.00000
+b_rsa_shift2       0.00000     0.00000     0.00000
+b_rsa_shift3       0.00000     0.00000     0.00000
+delta_b           -0.92657    -1.34438    -0.41781
+delta_c           -0.44619    -0.70989    -0.26369
+delta_d            0.00000    -0.55694    -0.55694
+
+Settings and functions used in model definition:
+
+apollo_control
+--------------
+                       Value     
+modelName              "LC_tt3"  
+modelDescr             "LC model"
+indivID                "ID"      
+outputDirectory        "output/" 
+nCores                 "7"       
+debug                  "FALSE"   
+workInLogs             "FALSE"   
+seed                   "13"      
+mixing                 "FALSE"   
+HB                     "FALSE"   
+noValidation           "FALSE"   
+noDiagnostics          "FALSE"   
+calculateLLC           "TRUE"    
+panelData              "TRUE"    
+analyticGrad           "TRUE"    
+analyticGrad_manualSet "FALSE"   
+overridePanel          "FALSE"   
+preventOverridePanel   "FALSE"   
+noModification         "FALSE"   
+
+Hessian routines attempted
+--------------------------
+none
+
+
+apollo_lcPars
+---------------
+function(apollo_beta, apollo_inputs){
+  lcpars = list()
+  lcpars[["b_tt_value"]] = list(b_tt, b_tt_shift, b_tt_shift2, b_tt_shift3)
+  lcpars[["b_cost_value"]] = list(b_cost, b_cost_shift, b_cost_shift2, b_cost_shift3)
+  lcpars[["b_trans_value"]] = list(b_trans, b_trans_shift, b_trans_shift2, b_trans_shift3)
+  lcpars[["b_crowd_value"]] = list(b_crowd, b_crowd_shift, b_crowd_shift2, b_crowd_shift3)
+  lcpars[["b_disin_value"]] = list(b_disin, b_disin_shift, b_disin_shift2, b_disin_shift3)
+  lcpars[["b_share_value"]] = list(b_share, b_share_shift, b_share_shift2, b_share_shift3)
+  lcpars[["b_pta_value"]] = list(b_pta, b_pta_shift, b_pta_shift2, b_pta_shift3)
+  lcpars[["b_csa_value"]] = list(b_csa, b_csa_shift, b_csa_shift2, b_csa_shift3)
+  lcpars[["b_rsa_value"]] = list(b_rsa, b_rsa_shift, b_rsa_shift2, b_rsa_shift3)
+  
+
+  ### Utilities of class allocation model
+  V=list()
+  V[["class_a"]] = 0
+  V[["class_b"]] = delta_b
+  V[["class_c"]] = delta_c
+  V[["class_d"]] = delta_d
+  
+  ### Settings for class allocation models
+  classAlloc_settings = list(
+    classes      = c(class_a=1, class_b=2, class_c=3, class_d=4), 
+    utilities    = V  
+  )
+  
+  lcpars[["pi_values"]] = apollo_classAlloc(classAlloc_settings)
+  
+  return(lcpars)
+}
+<bytecode: 0x2a37a8998>
+
+
+apollo_probabilities
+----------------------
+function(apollo_beta, apollo_inputs, functionality="estimate"){
+  
+  ### Attach inputs and detach after function exit
+  apollo_attach(apollo_beta, apollo_inputs)
+  on.exit(apollo_detach(apollo_beta, apollo_inputs))
+  
+  ### Create list of probabilities P
+  P = list()
+  
+  ### Define settings for MNL model component
+  mnl_settings = list(
+    alternatives = c(pt=1, cs=2, rs=3),
+    avail        = 1,
+    choiceVar    = choice_best
+  )
+  
+  ### Loop over classes
+  for(s in 1:4){
+    
+    ### Compute class-specific utilities
+    V=list()
+    
+    V[["pt"]]  = asc_pt + b_cost_value[[s]] * pt1_cost_s  + b_tt_value[[s]] * commuting_days_s * pt1_tt_s + b_pta_value[[s]] * age_s + b_crowd_value[[s]] * pt1_crowd_s + b_trans_value[[s]] * pt1_trans_s
+    V[["cs"]]  = asc_cs + b_cost_value[[s]] * cs2_cost_s  + b_tt_value[[s]] * commuting_days_s * cs2_tt_s + b_csa_value[[s]] * age_s + b_disin_value[[s]] * cs2_disin_s
+    V[["rs"]]  = asc_rs + b_cost_value[[s]] * rs3_cost_s  + b_tt_value[[s]] * commuting_days_s * rs3_tt_s + b_rsa_value[[s]] * age_s + b_tt_value[[s]] * b_share_value[[s]] * rs3_share_s
+    
+    
+    
+    mnl_settings$utilities     = V
+    mnl_settings$componentName = paste0("Class_",s)
+    
+    ### Compute within-class choice probabilities using MNL model
+    P[[paste0("Class_",s)]] = apollo_mnl(mnl_settings, functionality)
+    
+    ### Take product across observation for same individual
+    P[[paste0("Class_",s)]] = apollo_panelProd(P[[paste0("Class_",s)]], apollo_inputs ,functionality)
+    
+  }
+  
+  ### Compute latent class model probabilities
+  lc_settings  = list(inClassProb = P, classProb=pi_values)
+  P[["model"]] = apollo_lc(lc_settings, apollo_inputs, functionality)
+  
+  ### Prepare and return outputs of function
+  P = apollo_prepareProb(P, apollo_inputs, functionality)
+  return(P)
+}
